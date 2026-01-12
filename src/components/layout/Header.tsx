@@ -25,12 +25,12 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20 pt-[30px] pb-0">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
+          <Link to="/" className="flex items-center gap-2 group pb-[10px]">
             <motion.div whileHover={{
             rotate: 180
           }} transition={{
             duration: 0.5
-          }} className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+          }} className="w-10 h-10 rounded-full bg-primary flex items-center justify-center pb-0">
               <Disc className="w-6 h-6 text-secondary" />
             </motion.div>
             <div className="flex flex-col">
