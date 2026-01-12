@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import { Layout } from "@/components/layout/Layout";
 import { CassetteIcon } from "@/components/ui/CassetteIcon";
-
 const About = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Header */}
       <section className="bg-secondary py-16">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} className="text-center">
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               Об аудиокассетах
             </h1>
@@ -27,11 +27,15 @@ const About = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
+            <motion.div initial={{
+            opacity: 0,
+            x: -30
+          }} whileInView={{
+            opacity: 1,
+            x: 0
+          }} viewport={{
+            once: true
+          }}>
               <h2 className="font-display text-4xl text-foreground mb-6">
                 История создания
               </h2>
@@ -52,12 +56,15 @@ const About = () => {
               </div>
             </motion.div>
             
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="flex justify-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            x: 30
+          }} whileInView={{
+            opacity: 1,
+            x: 0
+          }} viewport={{
+            once: true
+          }} className="flex justify-center">
               <CassetteIcon className="w-64 md:w-80" animate={false} />
             </motion.div>
           </div>
@@ -67,12 +74,15 @@ const About = () => {
       {/* Tape Types */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-12">
             <h2 className="font-display text-4xl text-foreground mb-4">
               Типы магнитной ленты
             </h2>
@@ -83,12 +93,15 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Type I */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="tape-card p-6"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} className="tape-card p-6">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-I text-base px-4 py-1">Type I</span>
                 <span className="text-lg font-medium text-foreground">Ferric / Normal Bias</span>
@@ -111,13 +124,17 @@ const About = () => {
             </motion.div>
 
             {/* Type II */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="tape-card p-6"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: 0.1
+          }} className="tape-card p-6">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-II text-base px-4 py-1">Type II</span>
                 <span className="text-lg font-medium text-foreground">Chrome / High Bias</span>
@@ -140,13 +157,17 @@ const About = () => {
             </motion.div>
 
             {/* Type III */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="tape-card p-6"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: 0.2
+          }} className="tape-card p-6">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-III text-base px-4 py-1">Type III</span>
                 <span className="text-lg font-medium text-foreground">Ferro-Chrome</span>
@@ -169,15 +190,19 @@ const About = () => {
             </motion.div>
 
             {/* Type IV */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="tape-card p-6"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: 0.3
+          }} className="tape-card p-6">
               <div className="flex items-center gap-3 mb-4">
-                <span className="tape-type-badge tape-type-IV text-base px-4 py-1">Type IV</span>
+                <span className="tape-type-badge tape-type-IV text-base px-4 py-1 text-destructive bg-stone-200">Type IV</span>
                 <span className="text-lg font-medium text-foreground">Metal</span>
               </div>
               <div className="space-y-3 text-muted-foreground">
@@ -203,24 +228,30 @@ const About = () => {
       {/* Technical Specs */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-12">
             <h2 className="font-display text-4xl text-foreground mb-4">
               Технические характеристики
             </h2>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="tape-card p-6 text-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} className="tape-card p-6 text-center">
               <div className="text-4xl font-display text-primary mb-2">3.81 мм</div>
               <p className="text-foreground font-medium mb-1">Ширина ленты</p>
               <p className="text-sm text-muted-foreground">
@@ -228,13 +259,17 @@ const About = () => {
               </p>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="tape-card p-6 text-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: 0.1
+          }} className="tape-card p-6 text-center">
               <div className="text-4xl font-display text-primary mb-2">4.76 см/с</div>
               <p className="text-foreground font-medium mb-1">Скорость протяжки</p>
               <p className="text-sm text-muted-foreground">
@@ -242,13 +277,17 @@ const About = () => {
               </p>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="tape-card p-6 text-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: 0.2
+          }} className="tape-card p-6 text-center">
               <div className="text-4xl font-display text-primary mb-2">C-90</div>
               <p className="text-foreground font-medium mb-1">Популярный формат</p>
               <p className="text-sm text-muted-foreground">
@@ -262,65 +301,60 @@ const About = () => {
       {/* Manufacturers Overview */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-12">
             <h2 className="font-display text-4xl text-foreground mb-4">
               Ключевые производители
             </h2>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                name: "TDK",
-                description: "Японская компания, создавшая легендарную серию SA (Super Avilyn) — эталон Type II кассет. Также известна сериями D, AD и металлическими MA.",
-              },
-              {
-                name: "Sony",
-                description: "Пионер формата Metal и создатель первого портативного плеера Walkman. Серии HF, UX и Metal Master стали классикой индустрии.",
-              },
-              {
-                name: "Maxell",
-                description: "Японский производитель с культовыми сериями XL II и Metal Vertex. Известны рекламой «Blown Away Guy», ставшей символом эпохи.",
-              },
-              {
-                name: "BASF",
-                description: "Немецкий концерн, изготовивший ленту для первого прототипа Philips. Главный производитель настоящего хромдиоксида (CrO₂).",
-              },
-              {
-                name: "Denon",
-                description: "Японский производитель премиум-аудиотехники. Кассеты серий DX и HD отличались высочайшей точностью изготовления.",
-              },
-              {
-                name: "AGFA",
-                description: "Немецкий производитель фотоматериалов и магнитных лент. Серии Superferro и Stereochrom были популярны в Европе.",
-              },
-            ].map((manufacturer, index) => (
-              <motion.div
-                key={manufacturer.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="tape-card p-6"
-              >
+            {[{
+            name: "TDK",
+            description: "Японская компания, создавшая легендарную серию SA (Super Avilyn) — эталон Type II кассет. Также известна сериями D, AD и металлическими MA."
+          }, {
+            name: "Sony",
+            description: "Пионер формата Metal и создатель первого портативного плеера Walkman. Серии HF, UX и Metal Master стали классикой индустрии."
+          }, {
+            name: "Maxell",
+            description: "Японский производитель с культовыми сериями XL II и Metal Vertex. Известны рекламой «Blown Away Guy», ставшей символом эпохи."
+          }, {
+            name: "BASF",
+            description: "Немецкий концерн, изготовивший ленту для первого прототипа Philips. Главный производитель настоящего хромдиоксида (CrO₂)."
+          }, {
+            name: "Denon",
+            description: "Японский производитель премиум-аудиотехники. Кассеты серий DX и HD отличались высочайшей точностью изготовления."
+          }, {
+            name: "AGFA",
+            description: "Немецкий производитель фотоматериалов и магнитных лент. Серии Superferro и Stereochrom были популярны в Европе."
+          }].map((manufacturer, index) => <motion.div key={manufacturer.name} initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: index * 0.1
+          }} className="tape-card p-6">
                 <h3 className="font-display text-2xl text-foreground mb-3">
                   {manufacturer.name}
                 </h3>
                 <p className="text-muted-foreground">
                   {manufacturer.description}
                 </p>
-              </motion.div>
-            ))}
+              </motion.div>)}
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default About;
