@@ -124,7 +124,7 @@ const Catalog = () => {
               <span className="text-sm text-muted-foreground">Ferro-Chrome</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-IV bg-neutral-200">Type IV</span>
+              <span className="tape-type-badge tape-type-IV bg-amber-100">Type IV</span>
               <span className="text-sm text-muted-foreground">Metal</span>
             </div>
           </div>
