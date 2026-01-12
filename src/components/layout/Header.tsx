@@ -21,9 +21,9 @@ const navLinks = [{
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  return <header className="header-gradient sticky top-0 z-50">
+  return <header className="header-gradient sticky top-0 z-50 mt-0 pt-[20px] pb-[20px]">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-16 md:h-20 pt-[30px] pb-0">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <motion.div whileHover={{

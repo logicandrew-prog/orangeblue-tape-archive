@@ -7,50 +7,56 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-
 const Contact = () => {
-  const { toast } = useToast();
+  const {
+    toast
+  } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
-    message: "",
+    message: ""
   });
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const {
+      name,
+      value
+    } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
+    await new Promise(resolve => setTimeout(resolve, 1000));
     toast({
       title: "Сообщение отправлено!",
-      description: "Мы свяжемся с вами в ближайшее время.",
+      description: "Мы свяжемся с вами в ближайшее время."
     });
-
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: ""
+    });
     setIsSubmitting(false);
   };
-
-  return (
-    <Layout>
+  return <Layout>
       {/* Header */}
-      <section className="bg-secondary py-16">
+      <section className="bg-secondary py-[34px]">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} className="text-center">
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               Обратная связь
             </h1>
@@ -68,11 +74,13 @@ const Contact = () => {
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-5 gap-8">
               {/* Contact Info */}
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="md:col-span-2 space-y-6"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              x: -30
+            }} animate={{
+              opacity: 1,
+              x: 0
+            }} className="md:col-span-2 space-y-6">
                 <div className="tape-card p-6">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -80,10 +88,7 @@ const Contact = () => {
                     </div>
                     <h3 className="font-display text-xl text-foreground">Email</h3>
                   </div>
-                  <a
-                    href="mailto:info@orangebluetape.com"
-                    className="text-primary hover:text-primary/80 transition-colors"
-                  >
+                  <a href="mailto:info@orangebluetape.com" className="text-primary hover:text-primary/80 transition-colors">
                     info@orangebluetape.com
                   </a>
                 </div>
@@ -105,26 +110,20 @@ const Contact = () => {
               </motion.div>
 
               {/* Form */}
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="md:col-span-3"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              x: 30
+            }} animate={{
+              opacity: 1,
+              x: 0
+            }} className="md:col-span-3">
                 <form onSubmit={handleSubmit} className="tape-card p-6 space-y-6">
                   <div className="space-y-2">
                     <Label htmlFor="name" className="flex items-center gap-2">
                       <User className="w-4 h-4 text-primary" />
                       Ваше имя
                     </Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      placeholder="Иван Иванов"
-                      required
-                      className="bg-background"
-                    />
+                    <Input id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Иван Иванов" required className="bg-background" />
                   </div>
 
                   <div className="space-y-2">
@@ -132,16 +131,7 @@ const Contact = () => {
                       <AtSign className="w-4 h-4 text-primary" />
                       Email
                     </Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="ivan@example.com"
-                      required
-                      className="bg-background"
-                    />
+                    <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} placeholder="ivan@example.com" required className="bg-background" />
                   </div>
 
                   <div className="space-y-2">
@@ -149,44 +139,19 @@ const Contact = () => {
                       <MessageSquare className="w-4 h-4 text-primary" />
                       Тема
                     </Label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      placeholder="Вопрос о кассетах TDK SA"
-                      required
-                      className="bg-background"
-                    />
+                    <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} placeholder="Вопрос о кассетах TDK SA" required className="bg-background" />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="message">Сообщение</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      placeholder="Расскажите подробнее..."
-                      rows={5}
-                      required
-                      className="bg-background resize-none"
-                    />
+                    <Textarea id="message" name="message" value={formData.message} onChange={handleChange} placeholder="Расскажите подробнее..." rows={5} required className="bg-background resize-none" />
                   </div>
 
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                  >
-                    {isSubmitting ? (
-                      "Отправка..."
-                    ) : (
-                      <>
+                  <Button type="submit" disabled={isSubmitting} className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                    {isSubmitting ? "Отправка..." : <>
                         Отправить сообщение
                         <Send className="w-4 h-4 ml-2" />
-                      </>
-                    )}
+                      </>}
                   </Button>
                 </form>
               </motion.div>
@@ -194,8 +159,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Contact;
