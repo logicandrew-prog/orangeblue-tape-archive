@@ -122,6 +122,19 @@ export const manufacturers: Manufacturer[] = [
     description: "Sony — один из крупнейших производителей бытовой электроники и носителей информации. Кассеты Sony HF, UX, ES и Metal Master славятся надёжностью и качеством звучания. Sony также изобрела формат Metal.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sony_HF_90_Cassette.jpg/640px-Sony_HF_90_Cassette.jpg",
     tapes: [
+      // Demonstration Cassettes
+      { id: "sony-demo-yeks-63", name: "Demonstration Cassette YEKS-63", type: "I", years: "1980-е", image: "/images/sony/Sony_demonstration_cassette_YEKS-63.jpg" },
+      { id: "sony-demo-cd-814", name: "Demonstration Cassette CD-814", type: "I", years: "1990-е", image: "/images/sony/Sony_demonstration_cassette_CD-814.jpg" },
+      { id: "sony-demo-cd-806", name: "Demonstration Cassette DM CD-806", type: "I", years: "1977", image: "/images/sony/Sony_demonstration_cassette_DM_CD-806.jpg" },
+      { id: "sony-demo-cd-803", name: "Demonstration Cassette DM CD-803", type: "I", years: "1974", image: "/images/sony/Sony_demonstration_cassette_DM_CD-803.jpg" },
+      { id: "sony-demo-cd-802", name: "Demonstration Cassette DM CD-802", type: "I", years: "1972", image: "/images/sony/Sony_demonstration_cassette_DM_CD-802.jpg" },
+      { id: "sony-demo-cd-501", name: "Demonstration Cassette DM CD-501", type: "I", years: "1970", image: "/images/sony/Sony_demonstration_cassette_DM_CD-501.jpg" },
+      { id: "sony-demo-cd-102", name: "Demonstration Cassette DM CD-102", type: "I", years: "1970", image: "/images/sony/Sony_demonstration_cassette_DM_CD-102.jpg" },
+      // ZX / X-Series
+      { id: "sony-zx", name: "ZX", type: "IV", years: "1979-1982", image: "/images/sony/Sony_ZX.jpg" },
+      { id: "sony-xtune-2", name: "Xtune 2", type: "II", years: "2000-е", image: "/images/sony/Sony_Xtune_2.jpg" },
+      { id: "sony-xs-ii", name: "XS II", type: "II", years: "1980-е", image: "/images/sony/Sony_XS_II.jpg" },
+      // Standard Series
       { id: "sony-hf", name: "HF", type: "I", years: "1985-2010" },
       { id: "sony-hf-s", name: "HF-S", type: "I", years: "1988-1998" },
       { id: "sony-hf-pro", name: "HF-Pro", type: "I", years: "1990-1996" },
