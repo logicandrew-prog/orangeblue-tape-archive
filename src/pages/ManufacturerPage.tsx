@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowLeft, MapPin, Calendar, ExternalLink, Disc } from "lucide-react";
+import { ArrowLeft, MapPin, Calendar, Disc } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
-import { getManufacturerById } from "@/data/manufacturers";
+import { getManufacturerById, CassetteTape } from "@/data/manufacturers";
+import { sonyTapes, SonyTape } from "@/data/sonyTapes";
+
 const ImageWithFallback = ({
   src,
   alt,
@@ -21,22 +23,25 @@ const ImageWithFallback = ({
   }
   return <img src={src} alt={alt} className={className} onError={() => setError(true)} loading="lazy" />;
 };
+
 const ManufacturerPage = () => {
-  const {
-    id
-  } = useParams<{
-    id: string;
-  }>();
+  const { id } = useParams<{ id: string }>();
   const manufacturer = id ? getManufacturerById(id) : undefined;
+  
   if (!manufacturer) {
     return <Navigate to="/catalog" replace />;
   }
+
+  // Use sonyTapes for Sony manufacturer
+  const tapes: (CassetteTape | SonyTape)[] = id === "sony" ? sonyTapes : manufacturer.tapes;
+
   const typeLabels = {
     I: "Type I (Ferric)",
     II: "Type II (Chrome)",
     III: "Type III (Ferro-Chrome)",
     IV: "Type IV (Metal)"
   };
+
   return <Layout>
       {/* Header */}
       <section className="bg-secondary py-12">
