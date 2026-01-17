@@ -1,0 +1,518 @@
+=== AGFA Audioclean ===
+Описание: Head Cleaner
+/?? мин.
+Изображение: AGFA_Audioclean_0.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Audioclean/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Audioclean ===
+Описание: Head Cleaner
+/?? мин.
+Изображение: AGFA_Audioclean_1.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Audioclean/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Audioclean ===
+Описание: Head Cleaner
+/?? мин.
+Изображение: AGFA_Audioclean_2.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Audioclean/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA C-DX2 S ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: AGFA_C-DX2_S_3.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20C-DX2%20S/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA C-DX2 ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_C-DX2_4.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20C-DX2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA C ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_C_5.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20C/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA C ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_C_6.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20C/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA CRII-S ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_CRII-S_7.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20CRII-S/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA CRII-S ===
+Описание: Type 2 (IEC2)
+/48 мин.
+Изображение: AGFA_CRII-S_8.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20CRII-S/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA CRII ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_CRII_9.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20CRII/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA CRX ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_CRX_10.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20CRX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA CRX ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: AGFA_CRX_11.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20CRX/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Carat FeCr ===
+Описание: Type 3 (IEC3)
+/60 мин.
+Изображение: AGFA_Carat_FeCr_12.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Carat%20FeCr/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Carat FeCr ===
+Описание: Type 3 (IEC3)
+/96 мин.
+Изображение: AGFA_Carat_FeCr_13.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Carat%20FeCr/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Carat FeCr ===
+Описание: Type 3 (IEC3)
+/96 мин.
+Изображение: AGFA_Carat_FeCr_14.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Carat%20FeCr/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Chromdioxid ===
+Описание: Type 2 (IEC2)
+/66 мин.
+Изображение: AGFA_Chromdioxid_15.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Chromdioxid/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Cleaning Cassette ===
+Описание: Чистящая
+/??? мин.
+Изображение: AGFA_Cleaning_Cassette_16.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Cleaning%20Cassette/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Computer Cassette PC ===
+Описание: Type 1 (IEC1)
+/15 мин.
+Изображение: AGFA_Computer_Cassette_PC_17.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Computer%20Cassette%20PC/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA F-DX1 S ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_F-DX1_S_18.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20F-DX1%20S/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA F-DX1 ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_F-DX1_19.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20F-DX1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA FeCr III Carat HDX ===
+Описание: Type 3 (IEC3)
+/90 мин.
+Изображение: AGFA_FeCr_III_Carat_HDX_20.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20FeCr%20III%20Carat%20HDX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA FeI Ferrocolor HD ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_FeI_Ferrocolor_HD_21.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20FeI%20Ferrocolor%20HD/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA FeI Ferrocolor HD ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_FeI_Ferrocolor_HD_22.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20FeI%20Ferrocolor%20HD/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA FeI Ferrocolor HD ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: AGFA_FeI_Ferrocolor_HD_23.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20FeI%20Ferrocolor%20HD/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor HD ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Ferrocolor_HD_24.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor%20HD/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Ferrocolor_25.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Ferrocolor_26.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Ferrocolor_27.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Ferrocolor_28.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Ferrocolor_29.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/4/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_Ferrocolor_30.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/5/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Ferrocolor ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_Ferrocolor_31.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Ferrocolor/6/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA HR ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_HR_32.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20HR/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA HR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_HR_33.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20HR/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA High Energy ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_High_Energy_34.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20High%20Energy/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA LNS ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_LNS_35.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20LNS/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA LNX ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_LNX_36.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20LNX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise Special ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_Low_Noise_Special_37.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise%20Special/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: AGFA_Low_Noise_38.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: AGFA_Low_Noise_39.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Low_Noise_40.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Low_Noise_41.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_Low_Noise_42.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/4/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Low_Noise_43.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/5/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Low_Noise_44.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/6/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Low_Noise_45.jpg
+URL: https://c-90.org/decor/item_small_stub.jpg
+--------------------------------------------------
+
+=== AGFA Low Noise ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: AGFA_Low_Noise_46.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Low%20Noise/8/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA ME IV Pure Metal HDX ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: AGFA_ME_IV_Pure_Metal_HDX_47.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20ME%20IV%20Pure%20Metal%20HDX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA ME IV Pure Metal HDX ===
+Описание: Type 4 (IEC4)
+/60 мин.
+Изображение: AGFA_ME_IV_Pure_Metal_HDX_48.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20ME%20IV%20Pure%20Metal%20HDX/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Metal ===
+Описание: Type 4 (IEC4)
+/60 мин.
+Изображение: AGFA_Metal_49.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Metal/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Muster ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: AGFA_Muster_50.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Muster/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Pure Metal IV ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: AGFA_Pure_Metal_IV_51.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Pure%20Metal%20IV/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA SR-S ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: AGFA_SR-S_52.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20SR-S/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA SR ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_SR_53.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20SR/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Stereo-Chrom ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: AGFA_Stereo-Chrom_54.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Stereo-Chrom/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Stereo-Chrom ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: AGFA_Stereo-Chrom_55.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Stereo-Chrom/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Stereochrom HD ===
+Описание: Type 2 (IEC2)
+/96 мин.
+Изображение: AGFA_Stereochrom_HD_56.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Stereochrom%20HD/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Stereochrom ===
+Описание: Type 2 (IEC2)
+/66 мин.
+Изображение: AGFA_Stereochrom_57.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Stereochrom/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Stereochrom ===
+Описание: Type 2 (IEC2)
+/66 мин.
+Изображение: AGFA_Stereochrom_58.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Stereochrom/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Studiochrom ===
+Описание: Type 2 (IEC2)
+/96 мин.
+Изображение: AGFA_Studiochrom_59.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Studiochrom/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Super Color (Blau) ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Super_Color_(Blau)_60.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super%20Color%20%28Blau%29/0/cassettes_2_0.jpg
+--------------------------------------------------
+
+=== AGFA Super Color (Gelb) ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Super_Color_(Gelb)_61.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super%20Color%20%28Gelb%29/0/cassettes_2_0.jpg
+--------------------------------------------------
+
+=== AGFA Super Color (Rot) ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Super_Color_(Rot)_62.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super%20Color%20%28Rot%29/0/cassettes_2_0.jpg
+--------------------------------------------------
+
+=== AGFA Super Ferro Dynamic ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Super_Ferro_Dynamic_63.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super%20Ferro%20Dynamic/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Super Ferro Dynamic ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Super_Ferro_Dynamic_64.jpg
+URL: https://c-90.org/decor/item_small_stub.jpg
+--------------------------------------------------
+
+=== AGFA Super Ferro Dynamic ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Super_Ferro_Dynamic_65.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super%20Ferro%20Dynamic/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Super ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Super_66.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Super ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Super_67.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Super/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superchrom HDX ===
+Описание: Type 2 (IEC2)
+/96 мин.
+Изображение: AGFA_Superchrom_HDX_68.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superchrom%20HDX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superchrom ===
+Описание: Type 2 (IEC2)
+/66 мин.
+Изображение: AGFA_Superchrom_69.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superchrom/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superferro HDX ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Superferro_HDX_70.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superferro%20HDX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superferro HDX ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: AGFA_Superferro_HDX_71.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superferro%20HDX/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superferro ===
+Описание: Type 1 (IEC1)
+/96 мин.
+Изображение: AGFA_Superferro_72.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superferro/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== AGFA Superferro ===
+Описание: Type 1 (IEC1)
+/66 мин.
+Изображение: AGFA_Superferro_73.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Agfa/AGFA%20Superferro/1/cassettes_1_0.jpg
+--------------------------------------------------
+
