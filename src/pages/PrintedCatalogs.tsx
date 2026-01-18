@@ -158,12 +158,12 @@ const PrintedCatalogs = () => {
                 <ExternalLink className="w-4 h-4" />
               </a>
               <a
-                href="https://www.fedyunin.ru/cassettes/adt-cassette-tape/"
+                href="https://c-90.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium hover:bg-secondary/90 transition-colors"
               >
-                Fedyunin.ru
+                C-90.org
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>

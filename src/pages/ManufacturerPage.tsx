@@ -3,8 +3,8 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, MapPin, Calendar, Disc } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
-import { getManufacturerById, CassetteTape } from "@/data/manufacturers";
-import { sonyTapes, SonyTape } from "@/data/sonyTapes";
+import { getManufacturerById } from "@/data/manufacturers";
+import { getManufacturerTapes, hasLocalTapes, ManufacturerTape } from "@/data/manufacturerTapes";
 
 const ImageWithFallback = ({
   src,
@@ -32,8 +32,15 @@ const ManufacturerPage = () => {
     return <Navigate to="/catalog" replace />;
   }
 
-  // Use sonyTapes for Sony manufacturer
-  const tapes: (CassetteTape | SonyTape)[] = id === "sony" ? sonyTapes : manufacturer.tapes;
+  // Use local tapes if available
+  const localTapes = id ? getManufacturerTapes(id) : [];
+  const tapes: ManufacturerTape[] = localTapes.length > 0 ? localTapes : manufacturer.tapes.map(t => ({
+    id: t.id,
+    name: t.name,
+    type: t.type,
+    duration: t.years,
+    image: t.image
+  }));
 
   const typeLabels = {
     I: "Type I (Ferric)",
@@ -46,13 +53,7 @@ const ManufacturerPage = () => {
       {/* Header */}
       <section className="bg-secondary py-12">
         <div className="container mx-auto px-4">
-          <motion.div initial={{
-          opacity: 0,
-          y: 20
-        }} animate={{
-          opacity: 1,
-          y: 0
-        }}>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <Link to="/catalog" className="inline-flex items-center gap-2 text-primary/80 hover:text-primary transition-colors mb-6">
               <ArrowLeft className="w-4 h-4" />
               Назад к каталогу
@@ -97,47 +98,38 @@ const ManufacturerPage = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="font-display text-3xl text-foreground mb-8">
-            Модели кассет ({manufacturer.tapes.length})
+            Модели кассет ({tapes.length})
           </h2>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {manufacturer.tapes.map((tape, index) => <motion.div key={tape.id} initial={{
-            opacity: 0,
-            y: 20
-          }} animate={{
-            opacity: 1,
-            y: 0
-          }} transition={{
-            delay: index * 0.05
-          }} className="tape-card overflow-hidden">
-                <div className="aspect-[4/3] bg-muted overflow-hidden flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <Disc className="w-16 h-16 text-primary/30 mx-auto mb-2" />
-                    <span className="text-sm text-muted-foreground">{manufacturer.name}</span>
-                  </div>
+            {tapes.map((tape, index) => <motion.div key={tape.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: Math.min(index * 0.02, 0.5) }} className="tape-card overflow-hidden">
+                <div className="aspect-[4/3] bg-muted overflow-hidden">
+                  <ImageWithFallback 
+                    src={tape.image} 
+                    alt={tape.name} 
+                    className="w-full h-full object-contain" 
+                  />
                 </div>
                 
                 <div className="p-4">
                   <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-display text-xl text-foreground">
+                    <h3 className="font-display text-lg text-foreground">
                       {tape.name}
                     </h3>
-                    <span className={`tape-type-badge tape-type-${tape.type}`}>
+                    <span className={`tape-type-badge tape-type-${tape.type} text-xs`}>
                       Type {tape.type}
                     </span>
                   </div>
                   
-                  <p className="text-sm text-muted-foreground mb-2">
+                  <p className="text-sm text-muted-foreground mb-1">
                     {typeLabels[tape.type]}
                   </p>
                   
-                  <p className="text-sm text-primary font-medium">
-                    {tape.years}
-                  </p>
-                  
-                  {tape.description && <p className="text-sm text-muted-foreground mt-2">
-                      {tape.description}
-                    </p>}
+                  {tape.duration && tape.duration !== "??" && (
+                    <p className="text-sm text-primary font-medium">
+                      {tape.duration} мин.
+                    </p>
+                  )}
                 </div>
               </motion.div>)}
           </div>
@@ -147,11 +139,7 @@ const ManufacturerPage = () => {
       {/* External Resources */}
       <section className="py-12 bg-muted/30">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground mb-4">​Информация обновляется и дополняется.        </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            
-            
-          </div>
+          <p className="text-muted-foreground mb-4">Информация обновляется и дополняется.</p>
         </div>
       </section>
     </Layout>;
