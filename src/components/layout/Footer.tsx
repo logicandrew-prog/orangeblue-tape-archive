@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { Disc, Mail, ExternalLink } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="footer-gradient text-accent-foreground">
+  return <footer className="footer-gradient text-accent-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -52,29 +50,14 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-display text-xl text-primary">Ресурсы</h4>
             <div className="flex flex-col gap-2">
-              <a
-                href="https://c-90.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1"
-              >
+              <a href="https://c-90.org" target="_blank" rel="noopener noreferrer" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1">
                 C-90.org <ExternalLink className="w-3 h-3" />
               </a>
-              <a
-                href="https://www.tapetype.by"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1"
-              >
+              <a href="https://www.tapetype.by" target="_blank" rel="noopener noreferrer" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1">
                 TapeType.by <ExternalLink className="w-3 h-3" />
               </a>
-              <a
-                href="https://www.hifi-archiv.info"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1"
-              >
-                Hi-Fi Archiv <ExternalLink className="w-3 h-3" />
+              <a target="_blank" rel="noopener noreferrer" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-1" href="">
+                ​ <ExternalLink className="w-3 h-3" />
               </a>
             </div>
           </div>
@@ -84,15 +67,11 @@ export const Footer = () => {
           <p className="text-sm text-accent-foreground/50">
             © 2024 orangeblue Tape. Все права защищены.
           </p>
-          <a
-            href="mailto:info@orangebluetape.com"
-            className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-2"
-          >
+          <a href="mailto:info@orangebluetape.com" className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-2">
             <Mail className="w-4 h-4" />
             info@orangebluetape.com
           </a>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
