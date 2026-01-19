@@ -202,7 +202,7 @@ const About = () => {
             delay: 0.3
           }} className="tape-card p-6">
               <div className="flex items-center gap-3 mb-4">
-                <span className="tape-type-badge tape-type-IV text-base px-4 py-1 text-destructive bg-amber-100">Type IV</span>
+                <span className="tape-type-badge tape-type-IV text-base px-4 py-1 bg-orange-100 text-yellow-950">Type IV</span>
                 <span className="text-lg font-medium text-foreground">Metal</span>
               </div>
               <div className="space-y-3 text-muted-foreground">
