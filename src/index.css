@@ -173,7 +173,8 @@
   }
   
   .tape-type-IV {
-    @apply bg-amber-100 text-amber-800;
+    background-color: #ffedd6;
+    color: #412006;
   }
 }
 

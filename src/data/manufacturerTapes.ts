@@ -2,6 +2,7 @@ import { agfaTapes, ManufacturerTape } from './agfaTapes';
 import { denonTapes } from './denonTapes';
 import { goldstarTapes } from './goldstarTapes';
 import { sonyTapesNew } from './sonyTapesNew';
+import { tdkTapes } from './tdkTapes';
 
 export type { ManufacturerTape };
 
@@ -15,6 +16,8 @@ export const getManufacturerTapes = (manufacturerId: string): ManufacturerTape[]
       return goldstarTapes;
     case 'sony':
       return sonyTapesNew;
+    case 'tdk':
+      return tdkTapes;
     default:
       return [];
   }
