@@ -68,7 +68,7 @@ export const Footer = () => {
             © 2024 orangeblue Tape. Все права защищены.
           </p>
           <a className="text-sm text-accent-foreground/70 hover:text-primary transition-colors inline-flex items-center gap-2" href="mailto:tape@offmail.ru">tape@offmail.ru<Mail className="w-4 h-4" />
-            info@orangebluetape.com
+            tape@offmail.ru
           </a>
         </div>
       </div>
