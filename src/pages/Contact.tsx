@@ -69,7 +69,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-5 gap-8">
@@ -80,8 +80,8 @@ const Contact = () => {
             }} animate={{
               opacity: 1,
               x: 0
-            }} className="md:col-span-2 space-y-6">
-                <div className="tape-card p-6">
+            }} className="md:col-span-2 space-y-6 pt-0">
+                <div className="tape-card p-6 bg-primary-foreground">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                       <Mail className="w-5 h-5 text-primary" />
@@ -93,7 +93,7 @@ const Contact = () => {
                   </a>
                 </div>
 
-                <div className="tape-card p-6">
+                <div className="tape-card p-6 bg-primary-foreground">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                       <MessageSquare className="w-5 h-5 text-primary" />
@@ -117,7 +117,7 @@ const Contact = () => {
               opacity: 1,
               x: 0
             }} className="md:col-span-3">
-                <form onSubmit={handleSubmit} className="tape-card p-6 space-y-6">
+                <form onSubmit={handleSubmit} className="tape-card p-6 space-y-6 bg-primary-foreground">
                   <div className="space-y-2">
                     <Label htmlFor="name" className="flex items-center gap-2">
                       <User className="w-4 h-4 text-primary" />
