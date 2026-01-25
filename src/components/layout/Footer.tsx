@@ -14,7 +14,7 @@ export const Footer = () => {
                 <span className="font-display text-primary leading-none text-4xl">
                   orangeblue
                 </span>
-                <span className="text-primary/70 tracking-[0.2em] uppercase text-center font-mono text-sm">
+                <span className="text-primary/70 tracking-[0.2em] uppercase text-center font-mono text-sm font-bold">
                   Tape
                 </span>
               </div>
