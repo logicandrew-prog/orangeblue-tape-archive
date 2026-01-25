@@ -11,10 +11,10 @@ export const Footer = () => {
                 <Disc className="w-6 h-6 text-secondary" />
               </div>
               <div className="flex flex-col">
-                <span className="font-display text-primary leading-none text-3xl">
+                <span className="font-display text-primary leading-none text-4xl">
                   orangeblue
                 </span>
-                <span className="text-primary/70 tracking-[0.2em] uppercase text-center text-base font-mono">
+                <span className="text-primary/70 tracking-[0.2em] uppercase text-center font-mono text-sm">
                   Tape
                 </span>
               </div>
