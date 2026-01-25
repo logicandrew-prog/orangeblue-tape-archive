@@ -137,11 +137,11 @@ const PrintedCatalogs = () => {
             </p>
             
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://www.hifi-archiv.info" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors text-secondary bg-primary-foreground">
+              <a href="https://www.hifi-archiv.info" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors text-secondary-foreground bg-accent">
                 HiFi-Archiv.info
                 <ExternalLink className="w-4 h-4" />
               </a>
-              <a href="https://c-90.org" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors text-secondary bg-primary-foreground">
+              <a href="https://c-90.org" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors bg-accent text-secondary-foreground">
                 C-90.org
                 <ExternalLink className="w-4 h-4" />
               </a>
