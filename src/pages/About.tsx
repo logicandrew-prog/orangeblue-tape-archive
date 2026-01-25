@@ -101,7 +101,7 @@ const About = () => {
             y: 0
           }} viewport={{
             once: true
-          }} className="tape-card p-6">
+          }} className="tape-card p-6 bg-primary-foreground">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-I text-base px-4 py-1">Type I</span>
                 <span className="text-lg font-medium text-foreground">Ferric / Normal Bias</span>
@@ -134,7 +134,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: 0.1
-          }} className="tape-card p-6">
+          }} className="tape-card p-6 bg-primary-foreground">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-II text-base px-4 py-1">Type II</span>
                 <span className="text-lg font-medium text-foreground">Chrome / High Bias</span>
@@ -167,7 +167,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: 0.2
-          }} className="tape-card p-6">
+          }} className="tape-card p-6 text-primary-foreground bg-primary-foreground">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-III text-base px-4 py-1">Type III</span>
                 <span className="text-lg font-medium text-foreground">Ferro-Chrome</span>
@@ -200,7 +200,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: 0.3
-          }} className="tape-card p-6">
+          }} className="tape-card p-6 bg-primary-foreground">
               <div className="flex items-center gap-3 mb-4">
                 <span className="tape-type-badge tape-type-IV text-base px-4 py-1 bg-orange-100 text-yellow-950">Type IV</span>
                 <span className="text-lg font-medium text-foreground">Metal</span>
@@ -251,7 +251,7 @@ const About = () => {
             y: 0
           }} viewport={{
             once: true
-          }} className="tape-card p-6 text-center">
+          }} className="tape-card p-6 text-center bg-primary-foreground">
               <div className="text-4xl font-display text-primary mb-2">3.81 мм</div>
               <p className="text-foreground font-medium mb-1">Ширина ленты</p>
               <p className="text-sm text-muted-foreground">
@@ -269,7 +269,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: 0.1
-          }} className="tape-card p-6 text-center">
+          }} className="tape-card p-6 text-center bg-primary-foreground">
               <div className="text-4xl font-display text-primary mb-2">4.76 см/с</div>
               <p className="text-foreground font-medium mb-1">Скорость протяжки</p>
               <p className="text-sm text-muted-foreground">
@@ -287,7 +287,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: 0.2
-          }} className="tape-card p-6 text-center">
+          }} className="tape-card p-6 text-center bg-primary-foreground">
               <div className="text-4xl font-display text-primary mb-2">C-90</div>
               <p className="text-foreground font-medium mb-1">Популярный формат</p>
               <p className="text-sm text-muted-foreground">
@@ -344,7 +344,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: index * 0.1
-          }} className="tape-card p-6">
+          }} className="tape-card p-6 bg-primary-foreground">
                 <h3 className="font-display text-2xl text-foreground mb-3">
                   {manufacturer.name}
                 </h3>
