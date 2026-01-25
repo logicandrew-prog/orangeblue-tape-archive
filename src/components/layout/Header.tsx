@@ -37,7 +37,7 @@ export const Header = () => {
               <span className="font-display text-primary leading-none text-4xl">
                 orangeblue
               </span>
-              <span className="text-primary/70 tracking-[0.2em] uppercase font-mono text-center text-sm font-bold">
+              <span className="text-primary/70 tracking-[0.2em] uppercase font-mono text-sm font-bold text-right">
                 tape
               </span>
             </div>
