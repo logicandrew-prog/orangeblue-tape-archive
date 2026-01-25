@@ -45,7 +45,7 @@ const Catalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-background">
+      <section className="py-16 text-primary bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -64,7 +64,7 @@ const Catalog = () => {
                   </div>
                   
                   {/* Content */}
-                  <div className="p-6">
+                  <div className="p-6 bg-primary-foreground">
                     <div className="flex items-start justify-between mb-3">
                       <div>
                         <h2 className="font-display text-3xl text-foreground group-hover:text-primary transition-colors">
@@ -107,25 +107,25 @@ const Catalog = () => {
       {/* Tape Types Legend */}
       <section className="py-12 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h3 className="font-display text-2xl text-foreground text-center mb-8">
+          <h3 className="font-display text-2xl text-center mb-8 text-secondary">
             Типы магнитной ленты
           </h3>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 border-0">
             <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-I">Type I</span>
-              <span className="text-sm text-muted-foreground">Ferric (Normal)</span>
+              <span className="tape-type-badge tape-type-I text-base">Type I</span>
+              <span className="text-muted-foreground text-base">Ferric (Normal)</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-II">Type II</span>
-              <span className="text-sm text-muted-foreground">Chrome (High)</span>
+              <span className="tape-type-badge tape-type-II text-base">Type II</span>
+              <span className="text-muted-foreground text-base">Chrome (High)</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-III">Type III</span>
-              <span className="text-sm text-muted-foreground">Ferro-Chrome</span>
+              <span className="tape-type-badge tape-type-III text-base">Type III</span>
+              <span className="text-muted-foreground text-base">Ferro-Chrome</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-IV bg-amber-100">Type IV</span>
-              <span className="text-sm text-muted-foreground">Metal</span>
+              <span className="tape-type-badge tape-type-IV bg-amber-100 text-base">Type IV</span>
+              <span className="text-muted-foreground text-base">Metal</span>
             </div>
           </div>
         </div>
