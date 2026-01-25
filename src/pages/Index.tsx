@@ -149,7 +149,7 @@ const Index = () => {
           }}>
                 <Link to={`/catalog/${manufacturer.id}`} className="tape-card block p-4 text-center group bg-primary-foreground">
                   <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
-                    <img src={manufacturer.image} alt={manufacturer.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                    <img src={manufacturer.image} alt={manufacturer.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-cover" loading="lazy" />
                   </div>
                   <h3 className="font-display text-xl text-foreground">
                     {manufacturer.name}
