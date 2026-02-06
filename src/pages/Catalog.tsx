@@ -58,9 +58,19 @@ const Catalog = () => {
             delay: index * 0.1
           }}>
                 <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full">
-                  {/* Image */}
-                  <div className="aspect-[4/3] overflow-hidden">
+                  {/* Logo + Image */}
+                  <div className="aspect-[4/3] overflow-hidden relative">
                     <ImageWithFallback src={manufacturer.image} alt={manufacturer.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    {manufacturer.logo && (
+                      <div className="absolute top-3 left-3 w-14 h-14 rounded-lg bg-white border border-border shadow-sm flex items-center justify-center p-1.5">
+                        <img
+                          src={manufacturer.logo}
+                          alt={`${manufacturer.name} logo`}
+                          className="max-w-full max-h-full object-contain"
+                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                        />
+                      </div>
+                    )}
                   </div>
                   
                   {/* Content */}
@@ -94,7 +104,7 @@ const Catalog = () => {
                     
                     <div className="mt-4 pt-4 border-t border-border">
                       <span className="text-sm font-medium text-primary">
-                        {manufacturer.tapes.length} моделей в каталоге
+                        Смотреть каталог →
                       </span>
                     </div>
                   </div>
