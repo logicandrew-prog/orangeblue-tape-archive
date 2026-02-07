@@ -62,11 +62,12 @@ const Catalog = () => {
                   <div className="aspect-[4/3] overflow-hidden relative">
                     <ImageWithFallback src={manufacturer.image} alt={manufacturer.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                     {manufacturer.logo && (
-                      <div className="absolute top-3 left-3 w-14 h-14 rounded-lg bg-white border border-border shadow-sm flex items-center justify-center p-1.5">
+                      <div className="absolute top-3 left-3 w-16 h-16 rounded-lg overflow-hidden shadow-sm flex items-center justify-center p-2" style={{ backgroundColor: '#ffffff', border: '2px solid #ffffff' }}>
                         <img
                           src={manufacturer.logo}
                           alt={`${manufacturer.name} logo`}
                           className="max-w-full max-h-full object-contain"
+                          style={{ imageRendering: 'auto' }}
                           onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
                         />
                       </div>

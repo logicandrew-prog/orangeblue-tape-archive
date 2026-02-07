@@ -31,14 +31,14 @@ const LogoSquare = ({ src, alt }: { src?: string; alt: string }) => {
   
   if (!src || error) {
     return (
-      <div className="w-full aspect-square rounded-xl overflow-hidden bg-white border border-border flex items-center justify-center">
+      <div className="w-full aspect-square rounded-xl overflow-hidden flex items-center justify-center" style={{ backgroundColor: '#ffffff', border: '2px solid #ffffff' }}>
         <span className="font-display text-3xl text-muted-foreground">{alt[0]}</span>
       </div>
     );
   }
   
   return (
-    <div className="w-full aspect-square rounded-xl overflow-hidden bg-white border border-border flex items-center justify-center p-4">
+    <div className="w-full aspect-square rounded-xl overflow-hidden flex items-center justify-center p-4" style={{ backgroundColor: '#ffffff', border: '2px solid #ffffff' }}>
       <img
         src={src}
         alt={alt}
