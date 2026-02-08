@@ -230,7 +230,7 @@ const AboutVideo = () => {
       {/* CTA */}
       <section className="py-12 bg-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="font-display text-2xl mb-4 text-secondary">Коллекцию видеокассет</h3>
+          <h3 className="font-display text-2xl mb-4 text-secondary">Коллекция видеокассет</h3>
           <Link to="/video-catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
             Открыть каталог
             <ArrowRight className="w-4 h-4" />
