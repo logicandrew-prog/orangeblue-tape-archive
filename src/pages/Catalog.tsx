@@ -59,7 +59,7 @@ const Catalog = () => {
           }} transition={{
             delay: index * 0.03
           }}>
-                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full">
+                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full bg-[sidebar-primary-foreground] bg-[#ede5de]">
                   {/* Logo Area */}
                   <div className="aspect-square overflow-hidden flex items-center justify-center p-4" style={{
                 backgroundColor: '#ffffff'
