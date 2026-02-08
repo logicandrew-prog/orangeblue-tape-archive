@@ -47,7 +47,7 @@ const Catalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-orange-50">
+      <section className="py-16 bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -68,7 +68,7 @@ const Catalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[sidebar-primary-foreground] bg-border">
+                  <div className="p-3 bg-[sidebar-primary-foreground] bg-slate-200">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -94,7 +94,7 @@ const Catalog = () => {
       </section>
 
       {/* Tape Types Legend */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-slate-200">
         <div className="container mx-auto px-4">
           <h3 className="font-display text-2xl mb-8 text-center text-foreground">
             Типы магнитной ленты
