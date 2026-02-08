@@ -66,9 +66,7 @@ const PrintedCatalogs = () => {
         }} viewport={{
           once: true
         }} className="mb-12">
-            <h2 className="font-display text-4xl text-foreground mb-4">
-              Каталоги Sony
-            </h2>
+            <h2 className="font-display text-4xl text-foreground mb-4">Каталоги</h2>
             <p className="text-muted-foreground">
               Официальные каталоги аудиокассет Sony разных лет. Источник:{" "}
               <a href="https://www.hifi-archiv.info/sony.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 inline-flex items-center gap-1">
