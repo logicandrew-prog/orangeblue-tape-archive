@@ -33,9 +33,7 @@ const Catalog = () => {
           opacity: 1,
           y: 0
         }} className="text-center">
-            <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
-              Каталог производителей
-            </h1>
+            <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">Каталог аудио компакт-кассет</h1>
             <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">
               Исследуйте коллекции аудиокассет от ведущих мировых производителей. 
               Выберите бренд, чтобы увидеть полный список моделей.
@@ -61,17 +59,16 @@ const Catalog = () => {
                   {/* Logo + Image */}
                   <div className="aspect-[4/3] overflow-hidden relative">
                     <ImageWithFallback src={manufacturer.image} alt={manufacturer.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    {manufacturer.logo && (
-                      <div className="absolute top-3 left-3 w-16 h-16 rounded-lg overflow-hidden shadow-sm flex items-center justify-center p-2" style={{ backgroundColor: '#ffffff', border: '2px solid #ffffff' }}>
-                        <img
-                          src={manufacturer.logo}
-                          alt={`${manufacturer.name} logo`}
-                          className="max-w-full max-h-full object-contain"
-                          style={{ imageRendering: 'auto' }}
-                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-                        />
-                      </div>
-                    )}
+                    {manufacturer.logo && <div className="absolute top-3 left-3 w-16 h-16 rounded-lg overflow-hidden shadow-sm flex items-center justify-center p-2" style={{
+                  backgroundColor: '#ffffff',
+                  border: '2px solid #ffffff'
+                }}>
+                        <img src={manufacturer.logo} alt={`${manufacturer.name} logo`} className="max-w-full max-h-full object-contain" style={{
+                    imageRendering: 'auto'
+                  }} onError={e => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }} />
+                      </div>}
                   </div>
                   
                   {/* Content */}
