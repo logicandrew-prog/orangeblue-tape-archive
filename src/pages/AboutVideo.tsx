@@ -43,7 +43,7 @@ const AboutVideo = () => {
               VHS: От домашнего видео к цифровому архиву
             </h2>
             
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+            <p className="text-muted-foreground leading-relaxed mb-8 font-sans text-base">
               VHS (Video Home System) — это не просто старая кассета, а целая эпоха в истории домашних развлечений 
               и личных воспоминаний. Доминируя на рынке с конца 1970-х до середины 1990-х, этот формат стал носителем 
               миллионов часов уникального контента: семейных праздников, любимых фильмов, записей телепередач. 
@@ -53,7 +53,7 @@ const AboutVideo = () => {
             <h3 className="font-display text-2xl text-foreground mt-10 mb-4">
               История формата и "война форматов"
             </h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-muted-foreground leading-relaxed mb-4 text-base">
               Разработанный японской компанией JVC и выпущенный в 1976 году, VHS одержал решительную победу 
               в конкурентной борьбе с форматом Betamax от Sony. Ключевыми факторами успеха стали:
             </p>
@@ -70,25 +70,25 @@ const AboutVideo = () => {
             <div className="grid md:grid-cols-2 gap-4 mb-8">
               <div className="p-4 rounded-lg bg-destructive-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">VHS-C (1982)</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Компактная кассета для первых камкордеров. Через адаптер воспроизводилась в обычных VHS-магнитофонах.
                 </p>
               </div>
               <div className="p-4 rounded-lg bg-destructive-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">S-VHS (1987)</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Улучшенное качество — разрешение увеличено с ~240 до ~420 телевизионных линий.
                 </p>
               </div>
               <div className="p-4 rounded-lg bg-destructive-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">D-VHS (1998)</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Цифровая версия формата, способная записывать видео в стандарте HD.
                 </p>
               </div>
               <div className="p-4 rounded-lg bg-destructive-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">VHS</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Магнитная лента 1/2 дюйма в корпусе 188×104×25 мм. Скорости: SP, LP, EP/SLP.
                 </p>
               </div>
@@ -144,7 +144,7 @@ const AboutVideo = () => {
               Video8, Hi8, Digital8: Компактная революция
             </h2>
 
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+            <p className="text-muted-foreground leading-relaxed mb-8 text-base">
               В конце 1980-х на смену громоздким камерам VHS-C пришла более изящная альтернатива — 
               формат Video8 и его наследники. Разработанные консорциумом во главе с Sony, эти 8-миллиметровые 
               кассеты на десятилетие стали синонимом компактной любительской видеосъемки.
@@ -166,22 +166,22 @@ const AboutVideo = () => {
                 </thead>
                 <tbody className="text-muted-foreground">
                   <tr>
-                    <td className="border p-2 font-medium">Тип сигнала</td>
-                    <td className="border p-2">Аналоговый</td>
-                    <td className="border p-2">Аналоговый</td>
-                    <td className="border p-2">Цифровой (DV)</td>
+                    <td className="border p-2 font-medium bg-primary-foreground">Тип сигнала</td>
+                    <td className="border p-2 bg-primary-foreground">Аналоговый</td>
+                    <td className="border p-2 bg-primary-foreground">Аналоговый</td>
+                    <td className="border p-2 bg-primary-foreground">Цифровой (DV)</td>
                   </tr>
                   <tr>
-                    <td className="border p-2 font-medium">Разрешение</td>
-                    <td className="border p-2">~250 твл</td>
-                    <td className="border p-2">~400 твл</td>
-                    <td className="border p-2">~500 твл</td>
+                    <td className="border p-2 font-medium bg-primary-foreground">Разрешение</td>
+                    <td className="border p-2 bg-primary-foreground">~250 твл</td>
+                    <td className="border p-2 bg-primary-foreground">~400 твл</td>
+                    <td className="border p-2 bg-primary-foreground">~500 твл</td>
                   </tr>
                   <tr>
-                    <td className="border p-2 font-medium">Звук</td>
-                    <td className="border p-2">Аналоговый FM</td>
-                    <td className="border p-2">AFM + цифровой PCM</td>
-                    <td className="border p-2">Цифровой DV</td>
+                    <td className="border p-2 font-medium bg-primary-foreground">Звук</td>
+                    <td className="border p-2 bg-primary-foreground">Аналоговый FM</td>
+                    <td className="border p-2 bg-primary-foreground">AFM + цифровой PCM</td>
+                    <td className="border p-2 bg-primary-foreground">Цифровой DV</td>
                   </tr>
                 </tbody>
               </table>
@@ -191,7 +191,7 @@ const AboutVideo = () => {
               <AlertTriangle className="w-6 h-6 text-primary" />
               Угрозы и сложности сохранения
             </h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-muted-foreground leading-relaxed mb-4 text-base">
               Кассеты семейства Video8 находятся в зоне повышенного риска:
             </p>
             <ul className="text-muted-foreground space-y-2 mb-6">
@@ -207,19 +207,19 @@ const AboutVideo = () => {
             <div className="grid md:grid-cols-2 gap-4 mb-6">
               <div className="p-4 rounded-lg bg-primary-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">Аналоговые Video8/Hi8</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Захват через аналоговые выходы камеры (композитный или S-Video) с обязательным TBC.
                 </p>
               </div>
               <div className="p-4 rounded-lg border-slate-200 bg-primary-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">Digital8</h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-muted-foreground text-base">
                   Идеальный способ — цифровой захват через FireWire (i.LINK) без потерь качества.
                 </p>
               </div>
             </div>
 
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-base">
               Своевременная и грамотная оцифровка — единственный надежный способ спасти 
               запечатленные на этих кассетах моменты прошлого.
             </p>
@@ -228,11 +228,9 @@ const AboutVideo = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-12 bg-slate-200">
+      <section className="py-12 bg-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="font-display text-2xl mb-4 text-secondary">
-            Исследуйте коллекцию видеокассет
-          </h3>
+          <h3 className="font-display text-2xl mb-4 text-secondary">Коллекцию видеокассет</h3>
           <Link to="/video-catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
             Открыть каталог
             <ArrowRight className="w-4 h-4" />
