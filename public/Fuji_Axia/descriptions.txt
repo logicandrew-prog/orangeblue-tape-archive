@@ -1,0 +1,896 @@
+=== Axia A1 ===
+Описание: Type 1 (IEC1)
+/10 мин.
+Изображение: Axia_A1_0.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20A1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia A1 ===
+Описание: Type 1 (IEC1)
+/10 мин.
+Изображение: Axia_A1_1.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20A1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia A1 ===
+Описание: Type 1 (IEC1)
+/10 мин.
+Изображение: Axia_A1_2.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20A1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia A1 ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: Axia_A1_3.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20A1/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia A2 ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Axia_A2_4.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20A2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia AU-I X ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_AU-I_X_5.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20AU-I%20X/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia AU-I ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_AU-I_6.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20AU-I/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia AU-II X ===
+Описание: Type 2 (IEC1)
+/74 мин.
+Изображение: Axia_AU-II_X_7.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20AU-II%20X/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia AU-II X ===
+Описание: Type 2 (IEC1)
+/50 мин.
+Изображение: Axia_AU-II_X_8.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20AU-II%20X/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia AU-IV X ===
+Описание: Type 4 (IEC4)
+/64 мин.
+Изображение: Axia_AU-IV_X_9.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20AU-IV%20X/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia BOX1 ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: Axia_BOX1_10.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20BOX1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia BOX1 ===
+Описание: Type 1 (IEC1)
+/54 мин.
+Изображение: Axia_BOX1_11.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20BOX1/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia BOX1 ===
+Описание: Type 1 (IEC1)
+/74 мин.
+Изображение: Axia_BOX1_12.jpg
+URL: https://c-90.org/decor/item_small_stub.jpg
+--------------------------------------------------
+
+=== Axia BOX1 ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Axia_BOX1_13.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20BOX1/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia Be2 ===
+Описание: Type 2 (IEC2)
+/46 мин.
+Изображение: Axia_Be2_14.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20Be2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia GT-1 ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Axia_GT-1_15.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20GT-1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia GT-1x ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_GT-1x_16.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20GT-1x/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia GT-1x ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Axia_GT-1x_17.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20GT-1x/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia GT-2x ===
+Описание: Type 2 (IEC1)
+/54 мин.
+Изображение: Axia_GT-2x_18.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20GT-2x/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia GT-2x ===
+Описание: Type 2 (IEC1)
+/60 мин.
+Изображение: Axia_GT-2x_19.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20GT-2x/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia Hello Kitty ===
+Описание: Type 2 (IEC2)
+/74 мин.
+Изображение: Axia_Hello_Kitty_20.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20Hello%20Kitty/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia Hi ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_Hi_21.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20Hi/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JP-F ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_JP-F_22.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JP-F/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 1 ===
+Описание: Type 1 (IEC1)
+/150 мин.
+Изображение: Axia_JZ_1_23.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%201/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 1 ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_JZ_1_24.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%201/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 2 Color ===
+Описание: Type 1 (IEC1)
+/150 мин.
+Изображение: Axia_JZ_2_Color_25.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%202%20Color/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 2 ===
+Описание: Type 1 (IEC1)
+/84 мин.
+Изображение: Axia_JZ_2_26.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%202/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 2 ===
+Описание: Type 2 (IEC2)
+/150 мин.
+Изображение: Axia_JZ_2_27.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%202/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 2 ===
+Описание: Type 1 (IEC1)
+/40 мин.
+Изображение: Axia_JZ_2_28.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%202/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ 2 ===
+Описание: Type 2 (IEC2)
+/46 мин.
+Изображение: Axia_JZ_2_29.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%202/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ Metal ===
+Описание: Type 4 (IEC4)
+/80 мин.
+Изображение: Axia_JZ_Metal_30.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%20Metal/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia JZ Metal ===
+Описание: Type 4 (IEC4)
+/60 мин.
+Изображение: Axia_JZ_Metal_31.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20JZ%20Metal/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia K Metal ===
+Описание: Type 4 (IEC4)
+/100 мин.
+Изображение: Axia_K_Metal_32.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20K%20Metal/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia K1 ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_K1_33.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20K1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia K2 ===
+Описание: Type 2 (IEC2)
+/80 мин.
+Изображение: Axia_K2_34.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20K2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS Metal ===
+Описание: Type 4 (IEC4)
+/54 мин.
+Изображение: Axia_PS_Metal_35.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS%20Metal/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS Metal ===
+Описание: Type 4 (IEC4)
+/70 мин.
+Изображение: Axia_PS_Metal_36.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS%20Metal/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS Metal ===
+Описание: Type 4 (IEC4)
+/50 мин.
+Изображение: Axia_PS_Metal_37.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS%20Metal/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-1 ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Axia_PS-1_38.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-1 ===
+Описание: Type 1 (IEC1)
+/74 мин.
+Изображение: Axia_PS-1_39.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-1/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-1 ===
+Описание: Type 1 (IEC1)
+/80 мин.
+Изображение: Axia_PS-1_40.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-1/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-1s ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Axia_PS-1s_41.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-1s/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-2 ===
+Описание: Type 2 (IEC2)
+/46 мин.
+Изображение: Axia_PS-2_42.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-2 ===
+Описание: Type 2 (IEC2)
+/54 мин.
+Изображение: Axia_PS-2_43.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-2/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-2 ===
+Описание: Type 2 (IEC2)
+/54 мин.
+Изображение: Axia_PS-2_44.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-2/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-2 ===
+Описание: Type 2 (IEC2)
+/40 мин.
+Изображение: Axia_PS-2_45.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-2/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IIs ===
+Описание: Type 2 (IEC2)
+/50 мин.
+Изображение: Axia_PS-IIs_46.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IIs/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IIs ===
+Описание: Type 2 (IEC2)
+/54 мин.
+Изображение: Axia_PS-IIs_47.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IIs/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IIs ===
+Описание: Type 2 (IEC2)
+/54 мин.
+Изображение: Axia_PS-IIs_48.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IIs/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IIx ===
+Описание: Type 2 (IEC2)
+/50 мин.
+Изображение: Axia_PS-IIx_49.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IIx/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IIx ===
+Описание: Type 2 (IEC2)
+/74 мин.
+Изображение: Axia_PS-IIx_50.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IIx/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-IV ===
+Описание: Type 4 (IEC4)
+/46 мин.
+Изображение: Axia_PS-IV_51.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-IV/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-Ix ===
+Описание: Type 1 (IEC1)
+/74 мин.
+Изображение: Axia_PS-Ix_52.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-Ix/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia PS-Ix ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Axia_PS-Ix_53.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20PS-Ix/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia UP ===
+Описание: Type 1 (IEC1)
+/120 мин.
+Изображение: Axia_UP_54.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20UP/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia XD-Master ===
+Описание: Type 4 (IEC4)
+/46 мин.
+Изображение: Axia_XD-Master_55.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20XD-Master/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Axia XD-Master ===
+Описание: Type 4 (IEC4)
+/60 мин.
+Изображение: Axia_XD-Master_56.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Axia%20XD-Master/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 1 ===
+Описание: Type 1 (IEC1)
+/74 мин.
+Изображение: Fuji_CDFan_1_57.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%201/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 1 ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_CDFan_1_58.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%201/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 1 ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Fuji_CDFan_1_59.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%201/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 1 ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_CDFan_1_60.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%201/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 2 ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_CDFan_2_61.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%202/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji CDFan 2 ===
+Описание: Type 2 (IEC2)
+/74 мин.
+Изображение: Fuji_CDFan_2_62.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20CDFan%202/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-1x ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR-1x_63.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-1x/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-1x ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR-1x_64.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-1x/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-1x ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_DR-1x_65.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-1x/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-1x ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_DR-1x_66.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-1x/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-1x ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_DR-1x_67.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-1x/4/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-I ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR-I_68.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-I/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-II ===
+Описание: Type 2 (IEC2)
+/100 мин.
+Изображение: Fuji_DR-II_69.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-II/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_DR-II_70.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-II/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_DR-II_71.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-II/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_DR-II_72.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR-II/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_DR_73.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_DR_74.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR_75.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR_76.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR_77.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/4/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR_78.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/5/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji DR ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_DR_79.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20DR/6/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji ER ===
+Описание: Type 1 (IEC1)
+/80 мин.
+Изображение: Fuji_ER_80.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20ER/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji ER ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_ER_81.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20ER/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FC ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_FC_82.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FC/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FL ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_FL_83.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FL/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FL ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_FL_84.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FL/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FL ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Fuji_FL_85.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FL/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR Metal ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_FR_Metal_86.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR%20Metal/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR Metal ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_FR_Metal_87.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR%20Metal/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR Metal ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_FR_Metal_88.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR%20Metal/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR Metal ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_FR_Metal_89.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR%20Metal/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR-I ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_FR-I_90.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR-I/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR-II ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_FR-II_91.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR-II/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_FR-II_92.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR-II/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR-IIs ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_FR-IIs_93.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR-IIs/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR-IIx ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_FR-IIx_94.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR-IIx/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FR ===
+Описание: Type 1 (IEC1)
+/60 мин.
+Изображение: Fuji_FR_95.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FR/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FX-I ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_FX-I_96.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FX-I/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FX-I ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_FX-I_97.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FX-I/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FX ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Fuji_FX_98.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FX/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji FX ===
+Описание: Type 1 (IEC1)
+/90 мин.
+Изображение: Fuji_FX_99.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20FX/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji GT-I ===
+Описание: Type 1 (IEC1)
+/46 мин.
+Изображение: Fuji_GT-I_100.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20GT-I/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji GT-II Super ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_GT-II_Super_101.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20GT-II%20Super/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji GT-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_GT-II_102.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20GT-II/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji GT-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_GT-II_103.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20GT-II/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji GT-IIx ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_GT-IIx_104.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20GT-IIx/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP Metall ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_JP_Metall_105.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP%20Metall/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-II ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_JP-II_106.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-II/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-II_107.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-II/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-II ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-II_108.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-II/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-IIx Pro ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-IIx_Pro_109.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-IIx%20Pro/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-IIx ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-IIx_110.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-IIx/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-IIx ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-IIx_111.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-IIx/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-IIx ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_JP-IIx_112.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-IIx/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji JP-Is ===
+Описание: Type 1 (IEC4)
+/60 мин.
+Изображение: Fuji_JP-Is_113.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20JP-Is/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji K1 ===
+Описание: Type 1 (IEC1)
+/100 мин.
+Изображение: Fuji_K1_114.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20K1/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji K2 ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_K2_115.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20K2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji K2x ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_K2x_116.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20K2x/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji KII ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_KII_117.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20KII/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Metal Tape ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_Metal_Tape_118.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Metal%20Tape/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Metal Tape ===
+Описание: Type 4 (IEC4)
+/60 мин.
+Изображение: Fuji_Metal_Tape_119.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Metal%20Tape/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Metal Z ===
+Описание: Type 4 (IEC4)
+/90 мин.
+Изображение: Fuji_Metal_Z_120.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Metal%20Z/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Metal Z ===
+Описание: Type 4 (IEC4)
+/100 мин.
+Изображение: Fuji_Metal_Z_121.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Metal%20Z/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_Z_122.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z2 ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_Z2_123.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z2/0/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z2 ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_Z2_124.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z2/1/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z2 ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_Z2_125.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z2/2/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z2 ===
+Описание: Type 2 (IEC2)
+/60 мин.
+Изображение: Fuji_Z2_126.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z2/3/cassettes_1_0.jpg
+--------------------------------------------------
+
+=== Fuji Z2 ===
+Описание: Type 2 (IEC2)
+/90 мин.
+Изображение: Fuji_Z2_127.jpg
+URL: https://c-90.org/FOR_PROGRAMMER/tapes/Fuji-Axia/Fuji%20Z2/4/cassettes_1_0.jpg
+--------------------------------------------------
+
