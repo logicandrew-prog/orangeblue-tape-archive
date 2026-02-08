@@ -24,9 +24,7 @@ const Index = () => {
                 orangeblue
                 <span className="block text-accent-foreground">Tape</span>
               </h1>
-              <p className="text-lg md:text-xl text-accent-foreground/80 mb-8 max-w-lg">
-                Путешествие в мир аналогового звука. Каталог компакт-кассет от легендарных производителей: история, типы и коллекционирование.
-              </p>
+              <p className="text-lg md:text-xl text-accent-foreground/80 mb-8 max-w-lg">Путешествие в мир аналогового звука и видео. Каталог аудио компакт-кассет и видеокассет  от легендарных производителей: история, типы и коллекционирование.</p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <Link to="/catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
                   Смотреть каталог
