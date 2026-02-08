@@ -3,18 +3,18 @@ import { Video, Clock, AlertTriangle, HardDrive, Monitor, Disc } from "lucide-re
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-
 const AboutVideo = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero */}
       <section className="bg-secondary py-16">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} className="text-center">
             <Video className="w-16 h-16 text-primary mx-auto mb-6" />
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               О видеокассетах
@@ -27,14 +27,17 @@ const AboutVideo = () => {
       </section>
 
       {/* VHS Article */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-primary-foreground">
         <div className="container mx-auto px-4">
-          <motion.article
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="prose prose-lg max-w-4xl mx-auto"
-          >
+          <motion.article initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="prose prose-lg max-w-4xl mx-auto">
             <h2 className="font-display text-4xl text-foreground mb-6 flex items-center gap-3">
               <Monitor className="w-10 h-10 text-primary" />
               VHS: От домашнего видео к цифровому архиву
@@ -125,14 +128,17 @@ const AboutVideo = () => {
       </section>
 
       {/* Video8 Article */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16 bg-destructive-foreground">
         <div className="container mx-auto px-4">
-          <motion.article
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="prose prose-lg max-w-4xl mx-auto"
-          >
+          <motion.article initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="prose prose-lg max-w-4xl mx-auto">
             <h2 className="font-display text-4xl text-foreground mb-6 flex items-center gap-3">
               <Disc className="w-10 h-10 text-primary" />
               Video8, Hi8, Digital8: Компактная революция
@@ -222,22 +228,17 @@ const AboutVideo = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-12 bg-secondary">
+      <section className="py-12 bg-slate-200">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="font-display text-2xl text-accent-foreground mb-4">
+          <h3 className="font-display text-2xl mb-4 text-secondary">
             Исследуйте коллекцию видеокассет
           </h3>
-          <Link
-            to="/video-catalog"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
-          >
+          <Link to="/video-catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
             Открыть каталог
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default AboutVideo;
