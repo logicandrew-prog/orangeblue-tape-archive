@@ -49,9 +49,7 @@ const PrintedCatalogs = () => {
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               Печатные каталоги
             </h1>
-            <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">
-              Оригинальные каталоги производителей в формате PDF для скачивания и изучения
-            </p>
+            <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">Оригинальные каталоги производителей в формате PDF и сканы страниц</p>
           </motion.div>
         </div>
       </section>
