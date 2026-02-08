@@ -105,7 +105,7 @@ const PrintedCatalogs = () => {
       </section>
 
       {/* Video Catalogs */}
-      <section className="py-16 bg-slate-300">
+      <section className="py-16 bg-slate-200">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
