@@ -137,7 +137,7 @@ const VideoManufacturerPage = () => {
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-[sidebar-primary-foreground] bg-card">
+                    <div className="p-4 bg-[sidebar-primary-foreground] bg-border">
                       <h3 className="font-display text-lg text-foreground mb-1">
                         {tape.name}
                       </h3>
