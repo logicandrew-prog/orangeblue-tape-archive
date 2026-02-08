@@ -1,150 +1,210 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Download, FileText, ExternalLink } from "lucide-react";
+import { Download, FileText, Image, Video, ExternalLink } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
-interface CatalogItem {
-  title: string;
-  year: string;
-  description: string;
-  pdfUrl: string;
-  previewUrl?: string;
-}
-const sonyCatalogs: CatalogItem[] = [{
-  title: "Sony Cassettes 1990",
-  year: "1990",
-  description: "Полный каталог аудиокассет Sony за 1990 год, включая серии HF, UX и Metal",
-  pdfUrl: "https://www.hifi-archiv.info/Sony%20Cassettes%201990.pdf"
-}, {
-  title: "Sony Cassettes 1991",
-  year: "1991",
-  description: "Каталог кассет Sony 1991 года с новыми моделями UX-Pro и Metal Master",
-  pdfUrl: "https://www.hifi-archiv.info/Sony%20Cassettes%201991.pdf"
-}, {
-  title: "Sony Cassettes 1992",
-  year: "1992",
-  description: "Обновлённая линейка аудиокассет Sony с улучшенными характеристиками",
-  pdfUrl: "https://www.hifi-archiv.info/Sony%20Cassettes%201992.pdf"
-}, {
-  title: "Sony Audio Cassettes 1993",
-  year: "1993",
-  description: "Каталог 1993 года — пик развития кассетных технологий Sony",
-  pdfUrl: "https://www.hifi-archiv.info/Sony%20Audio%20Cassettes%201993.pdf"
-}, {
-  title: "Sony Tape Catalog 1988",
-  year: "1988",
-  description: "Ранний каталог кассет Sony конца 80-х годов",
-  pdfUrl: "https://www.hifi-archiv.info/Sony%20Tape%20Catalog%201988.pdf"
-}];
+import { printedCatalogs, PrintedCatalog } from "@/data/printedCatalogs";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+
+const CatalogCard = ({ catalog, onClick }: { catalog: PrintedCatalog; onClick?: () => void }) => {
+  const isPdf = catalog.type === 'pdf';
+  const isVideo = catalog.type === 'video';
+
+  const Icon = isPdf ? FileText : isVideo ? Video : Image;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      className="tape-card overflow-hidden cursor-pointer group"
+      onClick={onClick}
+    >
+      {catalog.image ? (
+        <div className="aspect-[4/3] bg-muted overflow-hidden">
+          <img
+            src={catalog.image}
+            alt={catalog.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+          />
+        </div>
+      ) : (
+        <div className="aspect-[4/3] bg-muted flex items-center justify-center">
+          <Icon className="w-16 h-16 text-primary/30" />
+        </div>
+      )}
+
+      <div className="p-4 bg-primary-foreground">
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+            <Icon className="w-5 h-5 text-primary" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <h3 className="font-display text-lg text-foreground truncate">
+              {catalog.title}
+            </h3>
+            {catalog.year && (
+              <p className="text-sm text-primary font-medium">{catalog.year}</p>
+            )}
+            {catalog.description && (
+              <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
+                {catalog.description}
+              </p>
+            )}
+          </div>
+        </div>
+
+        {isPdf && catalog.pdfUrl && (
+          <a
+            href={catalog.pdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors mt-3"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Download className="w-4 h-4" />
+            Скачать PDF
+          </a>
+        )}
+      </div>
+    </motion.div>
+  );
+};
+
 const PrintedCatalogs = () => {
-  return <Layout>
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const audioCatalogs = printedCatalogs.filter((c) => c.type === 'audio');
+  const videoCatalogs = printedCatalogs.filter((c) => c.type === 'video');
+  const pdfCatalogs = printedCatalogs.filter((c) => c.type === 'pdf');
+
+  return (
+    <Layout>
       {/* Header */}
       <section className="bg-secondary py-16">
         <div className="container mx-auto px-4">
-          <motion.div initial={{
-          opacity: 0,
-          y: 20
-        }} animate={{
-          opacity: 1,
-          y: 0
-        }} className="text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center"
+          >
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               Печатные каталоги
             </h1>
-            <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">Оригинальные каталоги производителей в формате PDF и сканы страниц</p>
+            <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">
+              Оригинальные каталоги производителей: сканы страниц и PDF-документы
+            </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Sony Catalogs */}
+      {/* Audio Catalogs */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <motion.div initial={{
-          opacity: 0,
-          y: 20
-        }} whileInView={{
-          opacity: 1,
-          y: 0
-        }} viewport={{
-          once: true
-        }} className="mb-12">
-            <h2 className="font-display text-4xl text-foreground mb-4">Каталоги</h2>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <h2 className="font-display text-3xl text-foreground mb-2">
+              Каталоги аудиокассет
+            </h2>
             <p className="text-muted-foreground">
-              Официальные каталоги аудиокассет Sony разных лет. Источник:{" "}
-              <a href="https://www.hifi-archiv.info/sony.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 inline-flex items-center gap-1">
-                hifi-archiv.info <ExternalLink className="w-3 h-3" />
-              </a>
+              Сканы печатных каталогов аудиокассет разных лет
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {sonyCatalogs.map((catalog, index) => <motion.div key={catalog.title} initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            delay: index * 0.1
-          }} className="tape-card p-6 bg-primary-foreground">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-6 h-6 text-primary" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-display text-xl text-foreground mb-1">
-                      {catalog.title}
-                    </h3>
-                    <p className="text-sm text-primary font-medium mb-2">
-                      {catalog.year}
-                    </p>
-                    <p className="text-sm text-muted-foreground mb-4">
-                      {catalog.description}
-                    </p>
-                    <a href={catalog.pdfUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
-                      <Download className="w-4 h-4" />
-                      Скачать PDF
-                    </a>
-                  </div>
-                </div>
-              </motion.div>)}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {audioCatalogs.map((catalog) => (
+              <CatalogCard
+                key={catalog.title + catalog.year}
+                catalog={catalog}
+                onClick={() => catalog.image && setSelectedImage(catalog.image)}
+              />
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Additional Resources */}
+      {/* Video Catalogs */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <motion.div initial={{
-          opacity: 0,
-          y: 20
-        }} whileInView={{
-          opacity: 1,
-          y: 0
-        }} viewport={{
-          once: true
-        }} className="text-center">
-            <h2 className="font-display text-3xl text-foreground mb-6">
-              Дополнительные ресурсы
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <h2 className="font-display text-3xl text-foreground mb-2">
+              Каталоги видеокассет
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Больше каталогов и документации можно найти на специализированных сайтах, 
-              посвящённых винтажной аудиотехнике
+            <p className="text-muted-foreground">
+              Сканы печатных каталогов видеокассет
             </p>
-            
-            <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://www.hifi-archiv.info" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors text-secondary-foreground bg-accent">
-                HiFi-Archiv.info
-                <ExternalLink className="w-4 h-4" />
-              </a>
-              <a href="https://c-90.org" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-colors bg-accent text-secondary-foreground">
-                C-90.org
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
           </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {videoCatalogs.map((catalog) => (
+              <CatalogCard
+                key={catalog.title + catalog.year}
+                catalog={catalog}
+                onClick={() => catalog.image && setSelectedImage(catalog.image)}
+              />
+            ))}
+          </div>
         </div>
       </section>
-    </Layout>;
+
+      {/* PDF Catalogs */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <h2 className="font-display text-3xl text-foreground mb-2">
+              PDF-каталоги
+            </h2>
+            <p className="text-muted-foreground">
+              Каталоги в формате PDF для скачивания
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {pdfCatalogs.map((catalog) => (
+              <CatalogCard key={catalog.title + catalog.year} catalog={catalog} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Image Preview Dialog */}
+      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+        <DialogContent className="max-w-4xl max-h-[90vh] p-0">
+          <DialogHeader className="p-4 pb-0">
+            <DialogTitle>Просмотр каталога</DialogTitle>
+          </DialogHeader>
+          {selectedImage && (
+            <div className="p-4 overflow-auto">
+              <img
+                src={selectedImage}
+                alt="Каталог"
+                className="w-full h-auto"
+              />
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+    </Layout>
+  );
 };
+
 export default PrintedCatalogs;
