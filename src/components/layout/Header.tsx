@@ -7,16 +7,22 @@ const navLinks = [{
   label: "Главная"
 }, {
   href: "/catalog",
-  label: "Каталог"
+  label: "Аудиокассеты"
+}, {
+  href: "/video-catalog",
+  label: "Видеокассеты"
 }, {
   href: "/about",
   label: "Об аудиокассетах"
+}, {
+  href: "/about-video",
+  label: "О видеокассетах"
 }, {
   href: "/catalogs",
   label: "Печатные каталоги"
 }, {
   href: "/contact",
-  label: "Обратная связь"
+  label: "Контакты"
 }];
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

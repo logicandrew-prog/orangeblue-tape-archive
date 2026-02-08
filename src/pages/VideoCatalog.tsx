@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, MapPin, Calendar, Disc } from "lucide-react";
+import { ArrowRight, Video, MapPin } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
-import { manufacturers } from "@/data/manufacturers";
+import { videoManufacturers } from "@/data/videoManufacturers";
 
 const LogoImage = ({
   src,
@@ -35,7 +35,7 @@ const LogoImage = ({
   );
 };
 
-const Catalog = () => {
+const VideoCatalog = () => {
   return (
     <Layout>
       {/* Header */}
@@ -47,11 +47,10 @@ const Catalog = () => {
             className="text-center"
           >
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
-              Каталог аудиокассет
+              Каталог видеокассет
             </h1>
             <p className="text-accent-foreground/80 text-lg max-w-2xl mx-auto">
-              Исследуйте коллекции аудиокассет от ведущих мировых производителей.
-              Выберите бренд, чтобы увидеть полный список моделей.
+              Коллекция видеокассет различных форматов: VHS, S-VHS, Hi8, Video8, MiniDV и Video 2000
             </p>
           </motion.div>
         </div>
@@ -61,15 +60,15 @@ const Catalog = () => {
       <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {manufacturers.map((manufacturer, index) => (
+            {videoManufacturers.map((manufacturer, index) => (
               <motion.div
                 key={manufacturer.id}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.03 }}
+                transition={{ delay: index * 0.05 }}
               >
                 <Link
-                  to={`/catalog/${manufacturer.id}`}
+                  to={`/video-catalog/${manufacturer.id}`}
                   className="tape-card block group h-full"
                 >
                   {/* Logo Area */}
@@ -100,7 +99,7 @@ const Catalog = () => {
 
                     <div className="pt-2 border-t border-border">
                       <span className="text-xs font-medium text-primary">
-                        Смотреть каталог →
+                        Смотреть →
                       </span>
                     </div>
                   </div>
@@ -111,34 +110,27 @@ const Catalog = () => {
         </div>
       </section>
 
-      {/* Tape Types Legend */}
+      {/* Info Section */}
       <section className="py-12 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <h3 className="font-display text-2xl mb-8 text-center text-foreground">
-            Типы магнитной ленты
+        <div className="container mx-auto px-4 text-center">
+          <Video className="w-12 h-12 text-primary mx-auto mb-4" />
+          <h3 className="font-display text-2xl text-foreground mb-4">
+            Форматы видеокассет
           </h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-I text-base">Type I</span>
-              <span className="text-muted-foreground text-base">Ferric (Normal)</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-II text-base">Type II</span>
-              <span className="text-muted-foreground text-base">Chrome (High)</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-III text-base">Type III</span>
-              <span className="text-muted-foreground text-base">Ferro-Chrome</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="tape-type-badge tape-type-IV text-base">Type IV</span>
-              <span className="text-muted-foreground text-base">Metal</span>
-            </div>
-          </div>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
+            В каталоге представлены кассеты форматов VHS, S-VHS, Hi8, Video8, Digital8, MiniDV и Video 2000
+          </p>
+          <Link
+            to="/about-video"
+            className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary/80 transition-colors"
+          >
+            Узнать больше о форматах
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </section>
     </Layout>
   );
 };
 
-export default Catalog;
+export default VideoCatalog;

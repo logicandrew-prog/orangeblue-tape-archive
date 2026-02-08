@@ -91,4 +91,7 @@ export const manufacturerFolders: Record<string, string> = {
   teac: 'Teac',
   technics: 'Technics',
   toshiba: 'Toshiba_Aurex',
+  konica: 'Konica',
+  mk: 'MK',
+  fuji: 'Fuji_Axia',
 };
