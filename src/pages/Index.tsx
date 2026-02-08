@@ -167,7 +167,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-slate-200">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
