@@ -94,7 +94,7 @@ const Catalog = () => {
       </section>
 
       {/* Tape Types Legend */}
-      <section className="py-12 bg-primary-foreground">
+      <section className="py-12 bg-slate-200">
         <div className="container mx-auto px-4">
           <h3 className="font-display text-2xl mb-8 text-center text-foreground">
             Типы магнитной ленты
