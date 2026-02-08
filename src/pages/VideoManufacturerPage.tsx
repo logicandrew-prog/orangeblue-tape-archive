@@ -132,12 +132,12 @@ const VideoManufacturerPage = () => {
               y: 0
             }} transition={{
               delay: Math.min(index * 0.02, 0.5)
-            }} className="tape-card overflow-hidden">
+            }} className="tape-card overflow-hidden bg-muted">
                     <div className="aspect-[4/3] bg-muted overflow-hidden">
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-slate-300">
+                    <div className="p-4 bg-muted">
                       <h3 className="font-display text-lg text-foreground mb-1">
                         {tape.name}
                       </h3>
