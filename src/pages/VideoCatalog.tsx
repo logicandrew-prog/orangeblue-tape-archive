@@ -46,7 +46,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-orange-50">
+      <section className="py-16 bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {videoManufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -67,7 +67,7 @@ const VideoCatalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[#ede5de]">
+                  <div className="p-3 bg-slate-200">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -93,7 +93,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Info Section */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-slate-200">
         <div className="container mx-auto px-4 text-center">
           <Video className="w-12 h-12 text-primary mx-auto mb-4" />
           <h3 className="font-display text-2xl text-foreground mb-4">
