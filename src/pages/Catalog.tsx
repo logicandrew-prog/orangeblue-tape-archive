@@ -4,48 +4,37 @@ import { motion } from "framer-motion";
 import { ArrowRight, MapPin, Calendar, Disc } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { manufacturers } from "@/data/manufacturers";
-
 const LogoImage = ({
   src,
   alt,
-  fallbackText,
+  fallbackText
 }: {
   src?: string;
   alt: string;
   fallbackText: string;
 }) => {
   const [error, setError] = useState(false);
-
   if (!src || error) {
-    return (
-      <div className="w-full h-full flex items-center justify-center bg-white">
+    return <div className="w-full h-full flex items-center justify-center bg-white">
         <span className="font-display text-2xl text-muted-foreground">{fallbackText}</span>
-      </div>
-    );
+      </div>;
   }
-
-  return (
-    <img
-      src={src}
-      alt={alt}
-      className="max-w-[80%] max-h-[80%] object-contain"
-      onError={() => setError(true)}
-      style={{ imageRendering: 'auto' }}
-    />
-  );
+  return <img src={src} alt={alt} className="max-w-[80%] max-h-[80%] object-contain" onError={() => setError(true)} style={{
+    imageRendering: 'auto'
+  }} />;
 };
-
 const Catalog = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Header */}
       <section className="bg-secondary py-16">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} className="text-center">
             <h1 className="font-display text-5xl md:text-6xl text-primary mb-4">
               Каталог аудиокассет
             </h1>
@@ -61,31 +50,25 @@ const Catalog = () => {
       <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {manufacturers.map((manufacturer, index) => (
-              <motion.div
-                key={manufacturer.id}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.03 }}
-              >
-                <Link
-                  to={`/catalog/${manufacturer.id}`}
-                  className="tape-card block group h-full"
-                >
+            {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
+            opacity: 0,
+            y: 30
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            delay: index * 0.03
+          }}>
+                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full">
                   {/* Logo Area */}
-                  <div
-                    className="aspect-square overflow-hidden flex items-center justify-center p-4"
-                    style={{ backgroundColor: '#ffffff' }}
-                  >
-                    <LogoImage
-                      src={manufacturer.logo}
-                      alt={manufacturer.name}
-                      fallbackText={manufacturer.name.charAt(0)}
-                    />
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4" style={{
+                backgroundColor: '#ffffff'
+              }}>
+                    <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-primary-foreground">
+                  <div className="p-3 bg-[sidebar-primary-foreground] bg-[#dbd7cc]">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -105,8 +88,7 @@ const Catalog = () => {
                     </div>
                   </div>
                 </Link>
-              </motion.div>
-            ))}
+              </motion.div>)}
           </div>
         </div>
       </section>
@@ -137,8 +119,6 @@ const Catalog = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Catalog;
