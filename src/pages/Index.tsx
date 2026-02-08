@@ -179,10 +179,10 @@ const Index = () => {
           once: true
         }} className="text-center max-w-2xl mx-auto">
             <Users className="w-12 h-12 text-primary mx-auto mb-6" />
-            <h2 className="font-display text-4xl text-accent-foreground mb-4">
+            <h2 className="font-display text-4xl mb-4 text-secondary">
               Есть вопросы?
             </h2>
-            <p className="text-accent-foreground/70 mb-8">
+            <p className="mb-8 text-secondary">
               Свяжитесь с нами, если хотите узнать больше о коллекционировании аудиокассет или поделиться своей коллекцией
             </p>
             <Link to="/contact" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
