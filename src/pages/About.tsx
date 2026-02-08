@@ -24,7 +24,7 @@ const About = () => {
       </section>
 
       {/* History Section */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div initial={{
@@ -72,7 +72,7 @@ const About = () => {
       </section>
 
       {/* Tape Types */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16 bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -226,7 +226,7 @@ const About = () => {
       </section>
 
       {/* Technical Specs */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-gray-200">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -299,7 +299,7 @@ const About = () => {
       </section>
 
       {/* Manufacturers Overview */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16 bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
