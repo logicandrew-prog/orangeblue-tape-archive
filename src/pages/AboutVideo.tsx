@@ -68,26 +68,26 @@ const AboutVideo = () => {
               Семейство форматов VHS
             </h3>
             <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <div className="p-4 rounded-lg bg-muted/50">
-                <h4 className="font-semibold text-foreground mb-2">VHS-C (1982)</h4>
+              <div className="p-4 rounded-lg bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">VHS-C (1982)</h4>
                 <p className="text-sm text-muted-foreground">
                   Компактная кассета для первых камкордеров. Через адаптер воспроизводилась в обычных VHS-магнитофонах.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-muted/50">
-                <h4 className="font-semibold text-foreground mb-2">S-VHS (1987)</h4>
+              <div className="p-4 rounded-lg bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">S-VHS (1987)</h4>
                 <p className="text-sm text-muted-foreground">
                   Улучшенное качество — разрешение увеличено с ~240 до ~420 телевизионных линий.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-muted/50">
-                <h4 className="font-semibold text-foreground mb-2">D-VHS (1998)</h4>
+              <div className="p-4 rounded-lg bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">D-VHS (1998)</h4>
                 <p className="text-sm text-muted-foreground">
                   Цифровая версия формата, способная записывать видео в стандарте HD.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-muted/50">
-                <h4 className="font-semibold text-foreground mb-2">Стандартный VHS</h4>
+              <div className="p-4 rounded-lg bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">VHS</h4>
                 <p className="text-sm text-muted-foreground">
                   Магнитная лента 1/2 дюйма в корпусе 188×104×25 мм. Скорости: SP, LP, EP/SLP.
                 </p>
@@ -158,10 +158,10 @@ const AboutVideo = () => {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="bg-muted">
-                    <th className="border p-2 text-left">Параметр</th>
-                    <th className="border p-2 text-left">Video8 (1985)</th>
-                    <th className="border p-2 text-left">Hi8 (1989)</th>
-                    <th className="border p-2 text-left">Digital8 (1999)</th>
+                    <th className="border p-2 text-left bg-slate-200">Параметр</th>
+                    <th className="border p-2 text-left bg-slate-200">Video8 (1985)</th>
+                    <th className="border p-2 text-left bg-slate-200">Hi8 (1989)</th>
+                    <th className="border p-2 text-left bg-slate-200">Digital8 (1999)</th>
                   </tr>
                 </thead>
                 <tbody className="text-muted-foreground">
@@ -205,14 +205,14 @@ const AboutVideo = () => {
               Процесс оцифровки
             </h3>
             <div className="grid md:grid-cols-2 gap-4 mb-6">
-              <div className="p-4 rounded-lg bg-background">
-                <h4 className="font-semibold text-foreground mb-2">Аналоговые Video8/Hi8</h4>
+              <div className="p-4 rounded-lg bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">Аналоговые Video8/Hi8</h4>
                 <p className="text-sm text-muted-foreground">
                   Захват через аналоговые выходы камеры (композитный или S-Video) с обязательным TBC.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-background">
-                <h4 className="font-semibold text-foreground mb-2">Digital8</h4>
+              <div className="p-4 rounded-lg border-slate-200 bg-slate-200">
+                <h4 className="font-semibold text-foreground mb-2 font-sans">Digital8</h4>
                 <p className="text-sm text-muted-foreground">
                   Идеальный способ — цифровой захват через FireWire (i.LINK) без потерь качества.
                 </p>
