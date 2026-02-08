@@ -38,7 +38,7 @@ const LogoSquare = ({
         <span className="font-display text-3xl text-muted-foreground">{alt[0]}</span>
       </div>;
   }
-  return <div className="w-full aspect-square rounded-xl overflow-hidden flex items-center justify-center p-4" style={{
+  return <div className="w-full aspect-square rounded-xl overflow-hidden flex items-center justify-center p-4 bg-secondary" style={{
     backgroundColor: '#ffffff',
     border: '2px solid #ffffff'
   }}>
@@ -132,12 +132,12 @@ const VideoManufacturerPage = () => {
               y: 0
             }} transition={{
               delay: Math.min(index * 0.02, 0.5)
-            }} className="tape-card overflow-hidden bg-primary-foreground">
+            }} className="tape-card overflow-hidden bg-card">
                     <div className="aspect-[4/3] bg-muted overflow-hidden">
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-primary-foreground">
+                    <div className="p-4 bg-[sidebar-primary-foreground] bg-card">
                       <h3 className="font-display text-lg text-foreground mb-1">
                         {tape.name}
                       </h3>
