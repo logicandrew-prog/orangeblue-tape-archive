@@ -53,7 +53,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-primary-foreground">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -99,7 +99,7 @@ const Index = () => {
           }} transition={{
             delay: index * 0.1
           }}>
-                <Link to={feature.link} className="tape-card block p-6 h-full group bg-primary-foreground">
+                <Link to={feature.link} className="tape-card block p-6 h-full group bg-destructive-foreground">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                     <feature.icon className="w-6 h-6 text-primary" />
                   </div>
@@ -114,7 +114,7 @@ const Index = () => {
       </section>
 
       {/* Manufacturers Preview */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -145,9 +145,9 @@ const Index = () => {
           }} transition={{
             delay: index * 0.05
           }}>
-                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block p-4 text-center group bg-primary-foreground">
+                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block p-4 text-center group bg-slate-200">
                   <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
-                    <img src={manufacturer.image} alt={manufacturer.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-cover" loading="lazy" />
+                    <img src={manufacturer.image} alt={manufacturer.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                   </div>
                   <h3 className="font-display text-xl text-foreground">
                     {manufacturer.name}
