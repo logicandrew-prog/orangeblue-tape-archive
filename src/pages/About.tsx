@@ -299,7 +299,7 @@ const About = () => {
       </section>
 
       {/* Manufacturers Overview */}
-      <section className="py-16 bg-destructive-foreground">
+      <section className="py-16 bg-primary-foreground">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -344,7 +344,7 @@ const About = () => {
             once: true
           }} transition={{
             delay: index * 0.1
-          }} className="tape-card p-6 bg-primary-foreground">
+          }} className="tape-card p-6 bg-slate-300">
                 <h3 className="font-display text-2xl text-foreground mb-3">
                   {manufacturer.name}
                 </h3>
