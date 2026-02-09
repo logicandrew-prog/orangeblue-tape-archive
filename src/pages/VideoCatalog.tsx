@@ -67,21 +67,21 @@ const VideoCatalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 border-none border-0 shadow-none border-slate-300 bg-gray-700">
+                  <div className="p-3 border-none border-0 shadow-none border-slate-300 bg-[#f8f7f7]">
                     <div className="flex items-start justify-between mb-1 text-primary-foreground">
-                      <h2 className="font-display text-lg transition-colors text-primary-foreground">
+                      <h2 className="font-display text-lg transition-colors text-secondary">
                         {manufacturer.name}
                       </h2>
                       <ArrowRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                     </div>
 
-                    <div className="flex items-center gap-2 text-xs mb-2 text-primary-foreground">
+                    <div className="flex items-center gap-2 text-xs mb-2 text-secondary">
                       <MapPin className="w-3 h-3" />
                       {manufacturer.country}
                     </div>
 
                     <div className="pt-2 border-t border-border">
-                      <span className="text-xs font-medium text-primary">
+                      <span className="text-xs font-medium text-secondary">
                         Смотреть →
                       </span>
                     </div>
@@ -93,7 +93,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Info Section */}
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 bg-card">
         <div className="container mx-auto px-4 text-center rounded-xl border-border bg-transparent">
           <Video className="w-12 h-12 text-primary mx-auto mb-4" />
           <h3 className="font-display text-2xl text-foreground mb-4 bg-transparent">
