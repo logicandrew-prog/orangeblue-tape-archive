@@ -147,12 +147,12 @@ const ManufacturerPage = () => {
               y: 0
             }} transition={{
               delay: Math.min(index * 0.02, 0.5)
-            }} className="tape-card overflow-hidden bg-border">
+            }} className="tape-card overflow-hidden bg-input">
                     <div className="aspect-[4/3] bg-muted overflow-hidden">
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-border">
+                    <div className="p-4 bg-input">
                       <div className="flex items-start justify-between gap-2 mb-2">
                         <h3 className="font-display text-lg text-foreground">
                           {tape.name}
