@@ -158,10 +158,10 @@ const AboutVideo = () => {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="bg-muted">
-                    <th className="border p-2 text-left bg-muted">Параметр</th>
-                    <th className="border p-2 text-left bg-muted">Video8 (1985)</th>
-                    <th className="border p-2 text-left bg-muted">Hi8 (1989)</th>
-                    <th className="border p-2 text-left bg-muted">Digital8 (1999)</th>
+                    <th className="border p-2 text-left bg-border">Параметр</th>
+                    <th className="border p-2 text-left bg-border">Video8 (1985)</th>
+                    <th className="border p-2 text-left bg-border">Hi8 (1989)</th>
+                    <th className="border p-2 text-left bg-border">Digital8 (1999)</th>
                   </tr>
                 </thead>
                 <tbody className="text-muted-foreground">
@@ -228,7 +228,7 @@ const AboutVideo = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-12 bg-muted">
+      <section className="py-12 bg-card">
         <div className="container mx-auto px-4 text-center">
           <h3 className="font-display text-2xl mb-4 text-secondary">Коллекция видеокассет</h3>
           <Link to="/video-catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
