@@ -162,7 +162,7 @@ const ManufacturerPage = () => {
                         </span>
                       </div>
 
-                      <p className="text-sm text-muted-foreground mb-1">
+                      <p className="text-sm text-muted-foreground mb-1 text-right">
                         {typeLabels[tape.type]}
                       </p>
 
