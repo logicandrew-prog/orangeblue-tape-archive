@@ -3,21 +3,40 @@ import { motion } from "framer-motion";
 import { ArrowRight, Disc, Video, Monitor, History, BookOpen } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { CassetteIcon } from "@/components/ui/CassetteIcon";
-
-const audioShowcase = [
-  { name: "SONY", id: "sony", image: "/Sony_cassettes/images/Sony_Metal_Master_161.jpg" },
-  { name: "TDK", id: "tdk", image: "/TDK/images/TDK_SA_215.jpg" },
-  { name: "BASF", id: "basf", image: "/Basf_Emtec/images/BASF_Chrome_Super_II_68.jpg" },
-  { name: "JVC", id: "jvc", image: "/JVC_Victor/images/JVC_F1_16.jpg" },
-];
-
-const videoShowcase = [
-  { name: "SONY", id: "video-catalog", image: "/Logos/Sony.jpeg" },
-  { name: "TDK", id: "video-catalog", image: "/Logos/TDK.jpg" },
-  { name: "BASF", id: "basf-video", image: "/Videocassette/BASF/images/BASF_1985-super-hg-e-180.jpg" },
-  { name: "JVC", id: "jvc-video", image: "/Videocassette/JVC/images/JVC_1985-super-hg-e-180-1.jpg" },
-];
-
+const audioShowcase = [{
+  name: "SONY",
+  id: "sony",
+  image: "/Sony_cassettes/images/Sony_Metal_Master_161.jpg"
+}, {
+  name: "TDK",
+  id: "tdk",
+  image: "/TDK/images/TDK_SA_215.jpg"
+}, {
+  name: "BASF",
+  id: "basf",
+  image: "/Basf_Emtec/images/BASF_Chrome_Super_II_68.jpg"
+}, {
+  name: "JVC",
+  id: "jvc",
+  image: "/JVC_Victor/images/JVC_F1_16.jpg"
+}];
+const videoShowcase = [{
+  name: "SONY",
+  id: "video-catalog",
+  image: "/Logos/Sony.jpeg"
+}, {
+  name: "TDK",
+  id: "video-catalog",
+  image: "/Logos/TDK.jpg"
+}, {
+  name: "BASF",
+  id: "basf-video",
+  image: "/Videocassette/BASF/images/BASF_1985-super-hg-e-180.jpg"
+}, {
+  name: "JVC",
+  id: "jvc-video",
+  image: "/Videocassette/JVC/images/JVC_1985-super-hg-e-180-1.jpg"
+}];
 const Index = () => {
   return <Layout>
     {/* Hero Section */}
@@ -25,7 +44,15 @@ const Index = () => {
       <div className="cassette-pattern absolute inset-0" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center md:text-left">
+          <motion.div initial={{
+            opacity: 0,
+            y: 30
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.6
+          }} className="text-center md:text-left">
             <h1 className="font-display text-5xl md:text-7xl text-primary mb-4 leading-tight">
               orangeblue
               <span className="block text-accent-foreground">Tape</span>
@@ -43,7 +70,16 @@ const Index = () => {
             </div>
           </motion.div>
           
-          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="flex justify-center">
+          <motion.div initial={{
+            opacity: 0,
+            scale: 0.8
+          }} animate={{
+            opacity: 1,
+            scale: 1
+          }} transition={{
+            duration: 0.8,
+            delay: 0.2
+          }} className="flex justify-center">
             <CassetteIcon className="w-64 md:w-80" animate />
           </motion.div>
         </div>
@@ -51,9 +87,17 @@ const Index = () => {
     </section>
 
     {/* 4 Navigation Buttons */}
-    <section className="py-20 bg-primary-foreground">
+    <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
+        <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">Погрузитесь в историю</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Компакт-кассета — символ эпохи аналогового звука, изменивший музыкальную индустрию навсегда
@@ -61,13 +105,37 @@ const Index = () => {
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { icon: Disc, title: "Типы аудиолент", description: "Type I, II, III и IV — от ферро до металла", link: "/about" },
-            { icon: Video, title: "Форматы видеокассет", description: "VHS, Hi8, Video8, MiniDV и другие форматы", link: "/about-video" },
-            { icon: History, title: "Каталог Аудиокассет", description: "Коллекция кассет от легендарных брендов", link: "/catalog" },
-            { icon: BookOpen, title: "Каталог Видеокассет", description: "Видеокассеты различных форматов", link: "/video-catalog" },
-          ].map((feature, index) => (
-            <motion.div key={feature.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.1 }}>
+          {[{
+            icon: Disc,
+            title: "Типы аудиолент",
+            description: "Type I, II, III и IV — от ферро до металла",
+            link: "/about"
+          }, {
+            icon: Video,
+            title: "Форматы видеокассет",
+            description: "VHS, Hi8, Video8, MiniDV и другие форматы",
+            link: "/about-video"
+          }, {
+            icon: History,
+            title: "Каталог Аудиокассет",
+            description: "Коллекция кассет от легендарных брендов",
+            link: "/catalog"
+          }, {
+            icon: BookOpen,
+            title: "Каталог Видеокассет",
+            description: "Видеокассеты различных форматов",
+            link: "/video-catalog"
+          }].map((feature, index) => <motion.div key={feature.title} initial={{
+            opacity: 0,
+            y: 30
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: index * 0.1
+          }}>
               <Link to={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <feature.icon className="w-6 h-6 text-primary" />
@@ -75,8 +143,7 @@ const Index = () => {
                 <h3 className="font-display text-xl text-foreground mb-2">{feature.title}</h3>
                 <p className="text-muted-foreground text-sm">{feature.description}</p>
               </Link>
-            </motion.div>
-          ))}
+            </motion.div>)}
         </div>
       </div>
     </section>
@@ -85,7 +152,15 @@ const Index = () => {
     <section className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+          <motion.div initial={{
+            opacity: 0,
+            x: -30
+          }} whileInView={{
+            opacity: 1,
+            x: 0
+          }} viewport={{
+            once: true
+          }}>
             <h2 className="font-display text-4xl text-foreground mb-6">История аудиокассеты</h2>
             <div className="prose prose-lg text-muted-foreground space-y-4">
               <p>
@@ -103,7 +178,15 @@ const Index = () => {
               </p>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="flex justify-center">
+          <motion.div initial={{
+            opacity: 0,
+            x: 30
+          }} whileInView={{
+            opacity: 1,
+            x: 0
+          }} viewport={{
+            once: true
+          }} className="flex justify-center">
             <CassetteIcon className="w-64 md:w-80" animate={false} />
           </motion.div>
         </div>
@@ -111,9 +194,17 @@ const Index = () => {
     </section>
 
     {/* Audio: Tape Types */}
-    <section className="py-16 bg-destructive-foreground">
+    <section className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-12">
+        <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-12">
           <h2 className="font-display text-4xl text-foreground mb-4">Типы магнитной ленты</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Международная электротехническая комиссия (IEC) в 1979 году установила 4 стандартных типа кассетных лент
@@ -121,13 +212,45 @@ const Index = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {[
-            { type: "I", label: "Ferric / Normal Bias", composition: "Оксид железа (γ-Fe₂O₃)", eq: "120 мкс", features: "Хорошая передача низких частот, но более высокий уровень шума. Наиболее доступный и распространённый тип.", examples: "TDK D, Sony HF, Maxell UR, BASF Ferro" },
-            { type: "II", label: "Chrome / High Bias", composition: "Диоксид хрома (CrO₂) или кобальт-модифицированный феррит", eq: "70 мкс", features: "Улучшенная передача высоких частот и меньший шум. Оптимальный баланс цена/качество для Hi-Fi записи.", examples: "TDK SA, Maxell XL II, Sony UX, BASF Chrome" },
-            { type: "III", label: "Ferro-Chrome", composition: "Двухслойное покрытие (феррит + хром)", eq: "70 мкс", features: "Попытка объединить преимущества Type I и II. Технология не получила широкого распространения.", examples: "Sony FeCr, Memorex FeCr (редкие, 1970-е годы)" },
-            { type: "IV", label: "Metal", composition: "Чистые металлические частицы (MP)", eq: "70 мкс", features: "Максимальное качество записи, широчайший динамический диапазон, превосходная передача высоких частот.", examples: "TDK MA, Sony Metal Master, Maxell Metal Vertex" },
-          ].map((t, i) => (
-            <motion.div key={t.type} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="tape-card p-6 bg-primary-foreground">
+          {[{
+            type: "I",
+            label: "Ferric / Normal Bias",
+            composition: "Оксид железа (γ-Fe₂O₃)",
+            eq: "120 мкс",
+            features: "Хорошая передача низких частот, но более высокий уровень шума. Наиболее доступный и распространённый тип.",
+            examples: "TDK D, Sony HF, Maxell UR, BASF Ferro"
+          }, {
+            type: "II",
+            label: "Chrome / High Bias",
+            composition: "Диоксид хрома (CrO₂) или кобальт-модифицированный феррит",
+            eq: "70 мкс",
+            features: "Улучшенная передача высоких частот и меньший шум. Оптимальный баланс цена/качество для Hi-Fi записи.",
+            examples: "TDK SA, Maxell XL II, Sony UX, BASF Chrome"
+          }, {
+            type: "III",
+            label: "Ferro-Chrome",
+            composition: "Двухслойное покрытие (феррит + хром)",
+            eq: "70 мкс",
+            features: "Попытка объединить преимущества Type I и II. Технология не получила широкого распространения.",
+            examples: "Sony FeCr, Memorex FeCr (редкие, 1970-е годы)"
+          }, {
+            type: "IV",
+            label: "Metal",
+            composition: "Чистые металлические частицы (MP)",
+            eq: "70 мкс",
+            features: "Максимальное качество записи, широчайший динамический диапазон, превосходная передача высоких частот.",
+            examples: "TDK MA, Sony Metal Master, Maxell Metal Vertex"
+          }].map((t, i) => <motion.div key={t.type} initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: i * 0.1
+          }} className="tape-card p-6 bg-primary-foreground">
               <div className="flex items-center gap-3 mb-4">
                 <span className={`tape-type-badge tape-type-${t.type} text-base px-4 py-1`}>Type {t.type}</span>
                 <span className="text-lg font-medium text-foreground">{t.label}</span>
@@ -138,38 +261,69 @@ const Index = () => {
                 <p><strong className="text-foreground">Особенности:</strong> {t.features}</p>
                 <p><strong className="text-foreground">Примеры:</strong> {t.examples}</p>
               </div>
-            </motion.div>
-          ))}
+            </motion.div>)}
         </div>
       </div>
     </section>
 
     {/* Audio: Technical Specs */}
-    <section className="py-16 bg-muted">
+    <section className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-12">
+        <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-12">
           <h2 className="font-display text-4xl text-foreground mb-4">Технические характеристики</h2>
         </motion.div>
         <div className="grid md:grid-cols-3 gap-8">
-          {[
-            { value: "3.81 мм", label: "Ширина ленты", desc: "Стандартная ширина магнитной ленты для всех компакт-кассет" },
-            { value: "4.76 см/с", label: "Скорость протяжки", desc: "Стандартная скорость движения ленты (1⅞ дюйма в секунду)" },
-            { value: "C-90", label: "Популярный формат", desc: "90 минут (45 минут на сторону) — самая распространённая длина" },
-          ].map((spec, i) => (
-            <motion.div key={spec.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="tape-card p-6 text-center bg-primary-foreground">
+          {[{
+            value: "3.81 мм",
+            label: "Ширина ленты",
+            desc: "Стандартная ширина магнитной ленты для всех компакт-кассет"
+          }, {
+            value: "4.76 см/с",
+            label: "Скорость протяжки",
+            desc: "Стандартная скорость движения ленты (1⅞ дюйма в секунду)"
+          }, {
+            value: "C-90",
+            label: "Популярный формат",
+            desc: "90 минут (45 минут на сторону) — самая распространённая длина"
+          }].map((spec, i) => <motion.div key={spec.label} initial={{
+            opacity: 0,
+            y: 20
+          }} whileInView={{
+            opacity: 1,
+            y: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: i * 0.1
+          }} className="tape-card p-6 text-center bg-primary-foreground">
               <div className="text-4xl font-display text-primary mb-2">{spec.value}</div>
               <p className="text-foreground font-medium mb-1">{spec.label}</p>
               <p className="text-sm text-muted-foreground">{spec.desc}</p>
-            </motion.div>
-          ))}
+            </motion.div>)}
         </div>
       </div>
     </section>
 
     {/* Video Article: VHS */}
-    <section className="py-16 bg-muted/50">
+    <section className="py-16 bg-[#f8f7f7]">
       <div className="container mx-auto px-4">
-        <motion.article initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="prose prose-lg max-w-4xl mx-auto">
+        <motion.article initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="prose prose-lg max-w-4xl mx-auto">
           <h2 className="font-display text-4xl text-foreground mb-6 flex items-center gap-3">
             <Monitor className="w-10 h-10 text-primary" />
             VHS: От домашнего видео к цифровому архиву
@@ -195,17 +349,22 @@ const Index = () => {
 
           <h3 className="font-display text-2xl text-foreground mt-10 mb-4">Семейство форматов VHS</h3>
           <div className="grid md:grid-cols-2 gap-4 mb-8">
-            {[
-              { name: "VHS-C (1982)", desc: "Компактная кассета для первых камкордеров. Через адаптер воспроизводилась в обычных VHS-магнитофонах." },
-              { name: "S-VHS (1987)", desc: "Улучшенное качество — разрешение увеличено с ~240 до ~420 телевизионных линий." },
-              { name: "D-VHS (1998)", desc: "Цифровая версия формата, способная записывать видео в стандарте HD." },
-              { name: "VHS", desc: "Магнитная лента 1/2 дюйма в корпусе 188×104×25 мм. Скорости: SP, LP, EP/SLP." },
-            ].map(f => (
-              <div key={f.name} className="p-4 rounded-lg bg-muted">
+            {[{
+              name: "VHS-C (1982)",
+              desc: "Компактная кассета для первых камкордеров. Через адаптер воспроизводилась в обычных VHS-магнитофонах."
+            }, {
+              name: "S-VHS (1987)",
+              desc: "Улучшенное качество — разрешение увеличено с ~240 до ~420 телевизионных линий."
+            }, {
+              name: "D-VHS (1998)",
+              desc: "Цифровая версия формата, способная записывать видео в стандарте HD."
+            }, {
+              name: "VHS",
+              desc: "Магнитная лента 1/2 дюйма в корпусе 188×104×25 мм. Скорости: SP, LP, EP/SLP."
+            }].map(f => <div key={f.name} className="p-4 rounded-lg bg-[#f8f7f7]">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">{f.name}</h4>
                 <p className="text-muted-foreground text-base">{f.desc}</p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </motion.article>
       </div>
@@ -214,7 +373,15 @@ const Index = () => {
     {/* Video Article: Video8 */}
     <section className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
-        <motion.article initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="prose prose-lg max-w-4xl mx-auto">
+        <motion.article initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="prose prose-lg max-w-4xl mx-auto">
           <h2 className="font-display text-4xl text-foreground mb-6 flex items-center gap-3">
             <Disc className="w-10 h-10 text-primary" />
             Video8, Hi8, Digital8: Компактная революция
@@ -264,23 +431,39 @@ const Index = () => {
     </section>
 
     {/* Audio Manufacturers Showcase */}
-    <section className="py-16 bg-primary-foreground">
+    <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-10">
+        <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-10">
           <h2 className="font-display text-4xl text-foreground mb-2">Аудиокассеты</h2>
           <p className="text-muted-foreground">Лучшие модели от легендарных брендов</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {audioShowcase.map((m, i) => (
-            <motion.div key={m.id} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }}>
+          {audioShowcase.map((m, i) => <motion.div key={m.id} initial={{
+            opacity: 0,
+            scale: 0.9
+          }} whileInView={{
+            opacity: 1,
+            scale: 1
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: i * 0.05
+          }}>
               <Link to={`/catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
                 <h3 className="font-display text-xl text-foreground">{m.name}</h3>
               </Link>
-            </motion.div>
-          ))}
+            </motion.div>)}
         </div>
         <div className="text-center mt-8">
           <Link to="/catalog" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary/80 transition-colors">
@@ -291,23 +474,39 @@ const Index = () => {
     </section>
 
     {/* Video Manufacturers Showcase */}
-    <section className="py-16 bg-card">
+    <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-10">
+        <motion.div initial={{
+          opacity: 0,
+          y: 20
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} className="text-center mb-10">
           <h2 className="font-display text-4xl text-foreground mb-2">Видеокассеты</h2>
           <p className="text-muted-foreground">Легендарные бренды мира видео</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {videoShowcase.map((m, i) => (
-            <motion.div key={`video-${m.name}`} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }}>
+          {videoShowcase.map((m, i) => <motion.div key={`video-${m.name}`} initial={{
+            opacity: 0,
+            scale: 0.9
+          }} whileInView={{
+            opacity: 1,
+            scale: 1
+          }} viewport={{
+            once: true
+          }} transition={{
+            delay: i * 0.05
+          }}>
               <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted flex items-center justify-center">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
                 <h3 className="font-display text-xl text-foreground">{m.name}</h3>
               </Link>
-            </motion.div>
-          ))}
+            </motion.div>)}
         </div>
         <div className="text-center mt-8">
           <Link to="/video-catalog" className="inline-flex items-center gap-2 text-primary font-medium hover:text-primary/80 transition-colors">
@@ -318,5 +517,4 @@ const Index = () => {
     </section>
   </Layout>;
 };
-
 export default Index;
