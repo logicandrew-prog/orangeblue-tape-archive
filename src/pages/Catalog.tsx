@@ -47,7 +47,7 @@ const Catalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-primary-foreground">
+      <section className="py-16 bg-[#f8f7f7]/85">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -61,14 +61,14 @@ const Catalog = () => {
           }}>
                 <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full bg-[sidebar-primary-foreground] bg-[#ede5de]">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border border-muted bg-primary-foreground" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[sidebar-primary-foreground] bg-destructive-foreground">
+                  <div className="p-3 bg-[sidebar-primary-foreground] border-muted-foreground border bg-input">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -94,7 +94,7 @@ const Catalog = () => {
       </section>
 
       {/* Tape Types Legend */}
-      <section className="py-12 bg-destructive-foreground">
+      <section className="py-12 bg-muted">
         <div className="container mx-auto px-4">
           <h3 className="font-display text-2xl mb-8 text-center text-foreground">
             Типы магнитной ленты
