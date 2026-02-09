@@ -25,7 +25,7 @@ const CatalogCard = ({
   }} className="tape-card overflow-hidden cursor-pointer group bg-border" onClick={onClick}>
       {catalog.image ? <div className="aspect-[4/3] bg-muted overflow-hidden">
           <img src={catalog.image} alt={catalog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-        </div> : <div className="aspect-[4/3] flex items-center justify-center bg-card">
+        </div> : <div className="aspect-[4/3] flex items-center justify-center bg-[#f8f7f7]">
           <Icon className="w-16 h-16 text-primary/30" />
         </div>}
 
@@ -131,7 +131,7 @@ const PrintedCatalogs = () => {
       </section>
 
       {/* PDF Catalogs */}
-      <section className="py-16 bg-primary-foreground">
+      <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
