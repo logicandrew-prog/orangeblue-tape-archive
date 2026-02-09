@@ -46,7 +46,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-destructive-foreground">
+      <section className="py-16 border-primary-foreground bg-accent-foreground">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {videoManufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -60,22 +60,22 @@ const VideoCatalog = () => {
           }}>
                 <Link to={`/video-catalog/${manufacturer.id}`} className="tape-card block group h-full">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border-2 border-solid border-stone-400 bg-primary-foreground" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-slate-200">
-                    <div className="flex items-start justify-between mb-1">
-                      <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
+                  <div className="p-3 shadow-xl border-2 border-stone-400 border-solid bg-secondary">
+                    <div className="flex items-start justify-between mb-1 text-primary-foreground">
+                      <h2 className="font-display text-lg transition-colors text-primary-foreground">
                         {manufacturer.name}
                       </h2>
                       <ArrowRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
                     </div>
 
-                    <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
+                    <div className="flex items-center gap-2 text-xs mb-2 text-primary-foreground">
                       <MapPin className="w-3 h-3" />
                       {manufacturer.country}
                     </div>
@@ -93,7 +93,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Info Section */}
-      <section className="py-12 bg-slate-200">
+      <section className="py-12 bg-card">
         <div className="container mx-auto px-4 text-center">
           <Video className="w-12 h-12 text-primary mx-auto mb-4" />
           <h3 className="font-display text-2xl text-foreground mb-4">
