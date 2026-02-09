@@ -152,23 +152,23 @@ const ManufacturerPage = () => {
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-border">
-                      <div className="flex items-start justify-between gap-2 mb-2">
-                        <h3 className="font-display text-lg text-foreground">
-                          {tape.name}
+                    <div className="p-3 bg-border">
+                      <div className="flex items-center justify-between gap-2 mb-1">
+                        <h3 className="font-display text-base text-foreground leading-tight">
+                          {tape.name.replace(/DEMONSTRATION/gi, 'DEMO')}
                         </h3>
+                        {tape.duration && tape.duration !== "??" && <span className="text-sm text-primary font-medium whitespace-nowrap">
+                            {tape.duration} мин.
+                          </span>}
+                      </div>
+                      <div className="flex items-center gap-2">
                         <span className={`tape-type-badge tape-type-${tape.type} text-xs`}>
                           Type {tape.type}
                         </span>
+                        <span className="text-xs text-muted-foreground">
+                          {typeLabels[tape.type]}
+                        </span>
                       </div>
-
-                      <p className="text-sm text-muted-foreground mb-1 text-left">
-                        {typeLabels[tape.type]}
-                      </p>
-
-                      {tape.duration && tape.duration !== "??" && <p className="text-sm text-primary font-medium">
-                          {tape.duration} мин.
-                        </p>}
                     </div>
                   </motion.div>)}
               </div>
