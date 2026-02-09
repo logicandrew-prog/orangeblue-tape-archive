@@ -22,14 +22,14 @@ const CatalogCard = ({
     y: 0
   }} viewport={{
     once: true
-  }} className="tape-card overflow-hidden cursor-pointer group bg-[#f8f7f7]" onClick={onClick}>
+  }} className="tape-card overflow-hidden cursor-pointer group bg-border" onClick={onClick}>
       {catalog.image ? <div className="aspect-[4/3] bg-muted overflow-hidden">
           <img src={catalog.image} alt={catalog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-        </div> : <div className="aspect-[4/3] flex items-center justify-center bg-slate-300">
+        </div> : <div className="aspect-[4/3] flex items-center justify-center bg-card">
           <Icon className="w-16 h-16 text-primary/30" />
         </div>}
 
-      <div className="p-4 bg-[#f8f7f7]">
+      <div className="p-4 bg-border">
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
             <Icon className="w-5 h-5 text-primary" />
@@ -79,7 +79,7 @@ const PrintedCatalogs = () => {
       </section>
 
       {/* Audio Catalogs */}
-      <section className="py-16 bg-[#f8f7f7]">
+      <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -105,7 +105,7 @@ const PrintedCatalogs = () => {
       </section>
 
       {/* Video Catalogs */}
-      <section className="py-16 bg-slate-200">
+      <section className="py-16 border bg-card border-secondary">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
@@ -131,7 +131,7 @@ const PrintedCatalogs = () => {
       </section>
 
       {/* PDF Catalogs */}
-      <section className="py-16 bg-destructive-foreground">
+      <section className="py-16 bg-[#f8f7f7]">
         <div className="container mx-auto px-4">
           <motion.div initial={{
           opacity: 0,
