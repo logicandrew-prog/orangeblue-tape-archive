@@ -46,7 +46,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 border-primary-foreground bg-destructive-foreground">
+      <section className="py-16 border-primary-foreground bg-[#f8f7f7]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {videoManufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
