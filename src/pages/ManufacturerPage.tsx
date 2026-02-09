@@ -154,10 +154,10 @@ const ManufacturerPage = () => {
 
                     <div className="p-3 bg-border">
                       <div className="flex items-center justify-between gap-2 mb-1">
-                        <h3 className="font-display text-base text-foreground leading-tight">
+                        <h3 className="font-display text-base leading-tight text-stone-700">
                           {tape.name.replace(/DEMONSTRATION/gi, 'DEMO')}
                         </h3>
-                        {tape.duration && tape.duration !== "??" && <span className="text-sm text-primary font-medium whitespace-nowrap">
+                        {tape.duration && tape.duration !== "??" && <span className="text-sm font-medium whitespace-nowrap text-orange-950">
                             {tape.duration} мин.
                           </span>}
                       </div>
@@ -165,7 +165,7 @@ const ManufacturerPage = () => {
                         <span className={`tape-type-badge tape-type-${tape.type} text-xs`}>
                           Type {tape.type}
                         </span>
-                        <span className="text-xs text-muted-foreground">
+                        <span className="text-xs text-stone-700">
                           {typeLabels[tape.type]}
                         </span>
                       </div>
