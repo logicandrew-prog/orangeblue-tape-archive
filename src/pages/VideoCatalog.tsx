@@ -46,7 +46,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 border-primary-foreground bg-muted">
+      <section className="py-16 border-primary-foreground bg-destructive-foreground">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {videoManufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -60,14 +60,14 @@ const VideoCatalog = () => {
           }}>
                 <Link to={`/video-catalog/${manufacturer.id}`} className="tape-card block group h-full">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border-2 border-solid border-stone-400 bg-primary-foreground" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 bg-primary-foreground border-solid border-gray-700 border" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 shadow-xl border-2 border-stone-400 border-solid bg-stone-700">
+                  <div className="p-3 shadow-xl bg-gray-700 border-gray-100 border-none border-0">
                     <div className="flex items-start justify-between mb-1 text-primary-foreground">
                       <h2 className="font-display text-lg transition-colors text-primary-foreground">
                         {manufacturer.name}
@@ -93,7 +93,7 @@ const VideoCatalog = () => {
       </section>
 
       {/* Info Section */}
-      <section className="py-12 bg-stone-200">
+      <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4 text-center rounded-xl border-border bg-transparent">
           <Video className="w-12 h-12 text-primary mx-auto mb-4" />
           <h3 className="font-display text-2xl text-foreground mb-4 bg-transparent">
