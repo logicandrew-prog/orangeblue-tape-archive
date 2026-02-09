@@ -68,25 +68,25 @@ const AboutVideo = () => {
               Семейство форматов VHS
             </h3>
             <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <div className="p-4 rounded-lg bg-destructive-foreground">
+              <div className="p-4 rounded-lg bg-sidebar-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">VHS-C (1982)</h4>
                 <p className="text-muted-foreground text-base">
                   Компактная кассета для первых камкордеров. Через адаптер воспроизводилась в обычных VHS-магнитофонах.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-destructive-foreground">
+              <div className="p-4 rounded-lg bg-accent-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">S-VHS (1987)</h4>
                 <p className="text-muted-foreground text-base">
                   Улучшенное качество — разрешение увеличено с ~240 до ~420 телевизионных линий.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-destructive-foreground">
+              <div className="p-4 rounded-lg bg-accent-foreground">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">D-VHS (1998)</h4>
                 <p className="text-muted-foreground text-base">
                   Цифровая версия формата, способная записывать видео в стандарте HD.
                 </p>
               </div>
-              <div className="p-4 rounded-lg bg-destructive-foreground">
+              <div className="p-4 rounded-lg bg-tape-cream">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">VHS</h4>
                 <p className="text-muted-foreground text-base">
                   Магнитная лента 1/2 дюйма в корпусе 188×104×25 мм. Скорости: SP, LP, EP/SLP.
@@ -128,7 +128,7 @@ const AboutVideo = () => {
       </section>
 
       {/* Video8 Article */}
-      <section className="py-16 bg-destructive-foreground">
+      <section className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
           <motion.article initial={{
           opacity: 0,
@@ -158,10 +158,10 @@ const AboutVideo = () => {
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="bg-muted">
-                    <th className="border p-2 text-left bg-slate-200">Параметр</th>
-                    <th className="border p-2 text-left bg-slate-200">Video8 (1985)</th>
-                    <th className="border p-2 text-left bg-slate-200">Hi8 (1989)</th>
-                    <th className="border p-2 text-left bg-slate-200">Digital8 (1999)</th>
+                    <th className="border p-2 text-left bg-tape-cream">Параметр</th>
+                    <th className="border p-2 text-left bg-tape-cream">Video8 (1985)</th>
+                    <th className="border p-2 text-left bg-tape-cream">Hi8 (1989)</th>
+                    <th className="border p-2 text-left bg-tape-cream">Digital8 (1999)</th>
                   </tr>
                 </thead>
                 <tbody className="text-muted-foreground">
@@ -205,13 +205,13 @@ const AboutVideo = () => {
               Процесс оцифровки
             </h3>
             <div className="grid md:grid-cols-2 gap-4 mb-6">
-              <div className="p-4 rounded-lg bg-primary-foreground">
+              <div className="p-4 rounded-lg bg-tape-cream">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">Аналоговые Video8/Hi8</h4>
                 <p className="text-muted-foreground text-base">
                   Захват через аналоговые выходы камеры (композитный или S-Video) с обязательным TBC.
                 </p>
               </div>
-              <div className="p-4 rounded-lg border-slate-200 bg-primary-foreground">
+              <div className="p-4 rounded-lg border-slate-200 bg-tape-cream">
                 <h4 className="font-semibold text-foreground mb-2 font-sans">Digital8</h4>
                 <p className="text-muted-foreground text-base">
                   Идеальный способ — цифровой захват через FireWire (i.LINK) без потерь качества.
@@ -228,7 +228,7 @@ const AboutVideo = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-12 bg-primary-foreground">
+      <section className="py-12 bg-slate-50">
         <div className="container mx-auto px-4 text-center">
           <h3 className="font-display text-2xl mb-4 text-secondary">Коллекция видеокассет</h3>
           <Link to="/video-catalog" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
