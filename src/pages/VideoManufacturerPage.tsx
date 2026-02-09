@@ -113,7 +113,7 @@ const VideoManufacturerPage = () => {
       </section>
 
       {/* Tapes Grid */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
           {loading ? <div className="flex items-center justify-center py-20">
               <Loader2 className="w-8 h-8 text-primary animate-spin" />
@@ -137,11 +137,11 @@ const VideoManufacturerPage = () => {
                       <ImageWithFallback src={tape.image} alt={tape.name} className="w-full h-full object-contain" />
                     </div>
 
-                    <div className="p-4 bg-[sidebar-primary-foreground] bg-border">
-                      <h3 className="font-display text-lg text-foreground mb-1">
+                    <div className="p-4 bg-[sidebar-primary-foreground] bg-border border-muted border-0 border-none">
+                      <h3 className="font-display text-lg mb-1 text-stone-600">
                         {tape.name}
                       </h3>
-                      {tape.size && <p className="text-sm text-muted-foreground">
+                      {tape.size && <p className="text-sm text-primary-foreground">
                           Размер: {tape.size}
                         </p>}
                     </div>
