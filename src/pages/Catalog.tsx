@@ -68,7 +68,7 @@ const Catalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[sidebar-primary-foreground] border bg-input border-muted">
+                  <div className="p-3 bg-[sidebar-primary-foreground] border border-muted bg-[#f8f7f7]">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -94,7 +94,7 @@ const Catalog = () => {
       </section>
 
       {/* Tape Types Legend */}
-      <section className="py-12 bg-muted">
+      <section className="py-12 bg-card">
         <div className="container mx-auto px-4">
           <h3 className="font-display text-2xl mb-8 text-center text-foreground">
             Типы магнитной ленты
