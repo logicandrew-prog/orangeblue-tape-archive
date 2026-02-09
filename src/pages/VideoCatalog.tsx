@@ -81,7 +81,7 @@ const VideoCatalog = () => {
                     </div>
 
                     <div className="pt-2 border-t border-border">
-                      <span className="text-xs font-medium text-secondary">
+                      <span className="text-xs font-medium text-orange-950">
                         Смотреть →
                       </span>
                     </div>
