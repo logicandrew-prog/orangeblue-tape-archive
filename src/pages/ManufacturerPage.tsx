@@ -180,7 +180,7 @@ const ManufacturerPage = () => {
       </section>
 
       {/* External Resources */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-card">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground mb-4">Информация обновляется и дополняется.</p>
         </div>
