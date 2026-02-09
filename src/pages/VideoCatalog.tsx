@@ -93,10 +93,10 @@ const VideoCatalog = () => {
       </section>
 
       {/* Info Section */}
-      <section className="py-12 bg-card">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-12 bg-border">
+        <div className="container mx-auto px-4 text-center bg-accent-foreground border-destructive-foreground">
           <Video className="w-12 h-12 text-primary mx-auto mb-4" />
-          <h3 className="font-display text-2xl text-foreground mb-4">
+          <h3 className="font-display text-2xl text-foreground mb-4 bg-secondary">
             Форматы видеокассет
           </h3>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
