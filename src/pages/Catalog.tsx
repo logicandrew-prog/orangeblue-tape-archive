@@ -61,14 +61,14 @@ const Catalog = () => {
           }}>
                 <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full bg-[sidebar-primary-foreground] bg-[#ede5de]">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border border-muted bg-primary-foreground" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border bg-primary-foreground border-border" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[sidebar-primary-foreground] border border-muted bg-border">
+                  <div className="p-3 bg-[sidebar-primary-foreground] border bg-border border-border">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
@@ -82,7 +82,7 @@ const Catalog = () => {
                     </div>
 
                     <div className="pt-2 border-t border-border">
-                      <span className="text-xs font-medium text-primary">
+                      <span className="text-xs font-medium text-yellow-950">
                         Смотреть каталог →
                       </span>
                     </div>
