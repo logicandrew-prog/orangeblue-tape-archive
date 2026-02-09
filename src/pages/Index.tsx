@@ -145,7 +145,7 @@ const Index = () => {
           }} transition={{
             delay: index * 0.05
           }}>
-                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block p-4 text-center group bg-slate-200">
+                <Link to={`/catalog/${manufacturer.id}`} className="tape-card block p-4 text-center group bg-slate-100">
                   <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
                     <img src={manufacturer.image} alt={manufacturer.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                   </div>
