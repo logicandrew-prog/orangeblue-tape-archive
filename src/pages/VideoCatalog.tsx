@@ -67,7 +67,7 @@ const VideoCatalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 shadow-xl border-2 border-stone-400 border-solid bg-secondary">
+                  <div className="p-3 shadow-xl border-2 border-stone-400 border-solid bg-stone-700">
                     <div className="flex items-start justify-between mb-1 text-primary-foreground">
                       <h2 className="font-display text-lg transition-colors text-primary-foreground">
                         {manufacturer.name}
