@@ -68,7 +68,7 @@ const Catalog = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3 bg-[sidebar-primary-foreground] border border-muted bg-[#f8f7f7]">
+                  <div className="p-3 bg-[sidebar-primary-foreground] border border-muted bg-border">
                     <div className="flex items-start justify-between mb-1">
                       <h2 className="font-display text-lg text-foreground group-hover:text-primary transition-colors">
                         {manufacturer.name}
