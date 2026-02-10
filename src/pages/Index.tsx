@@ -431,7 +431,7 @@ const Index = () => {
     </section>
 
     {/* Audio Manufacturers Showcase */}
-    <section className="py-16 bg-[#e9e8e7]">
+    <section className="py-16 bg-card">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -442,7 +442,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2">Аудиокассеты</h2>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-border">Аудиокассеты</h2>
           <p className="text-muted-foreground">Лучшие модели от легендарных брендов</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -474,7 +474,7 @@ const Index = () => {
     </section>
 
     {/* Video Manufacturers Showcase */}
-    <section className="py-16 bg-muted">
+    <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -485,7 +485,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2">Видеокассеты</h2>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-border">Видеокассеты</h2>
           <p className="text-muted-foreground">Легендарные бренды мира видео</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
