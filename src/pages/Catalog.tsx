@@ -61,7 +61,7 @@ const Catalog = () => {
           }}>
                 <Link to={`/catalog/${manufacturer.id}`} className="tape-card block group h-full bg-[sidebar-primary-foreground] bg-[#ede5de]">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 border bg-primary-foreground border-border" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 bg-primary-foreground border-2 border-border border-solid" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
