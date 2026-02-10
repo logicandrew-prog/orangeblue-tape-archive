@@ -87,7 +87,7 @@ const Index = () => {
     </section>
 
     {/* 4 Navigation Buttons */}
-    <section className="py-20 bg-card">
+    <section className="py-20 bg-[#f8f7f7]">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -136,7 +136,7 @@ const Index = () => {
           }} transition={{
             delay: index * 0.1
           }}>
-              <Link to={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
+              <Link to={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7] border-2 border-border border-solid">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <feature.icon className="w-6 h-6 text-primary" />
                 </div>
@@ -431,7 +431,7 @@ const Index = () => {
     </section>
 
     {/* Audio Manufacturers Showcase */}
-    <section className="py-16 bg-muted">
+    <section className="py-16 bg-card">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -457,7 +457,7 @@ const Index = () => {
           }} transition={{
             delay: i * 0.05
           }}>
-              <Link to={`/catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
+              <Link to={`/catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7] border-2 border-solid border-border">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
@@ -474,7 +474,7 @@ const Index = () => {
     </section>
 
     {/* Video Manufacturers Showcase */}
-    <section className="py-16 bg-muted">
+    <section className="py-16 bg-card">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -500,7 +500,7 @@ const Index = () => {
           }} transition={{
             delay: i * 0.05
           }}>
-              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
+              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7] border-2 border-solid border-border">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted flex items-center justify-center">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
