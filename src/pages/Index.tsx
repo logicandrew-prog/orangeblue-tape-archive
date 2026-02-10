@@ -16,18 +16,18 @@ const audioShowcase = [{
   id: "basf",
   image: "/Basf_Emtec/images/BASF_Chrome_Super_II_68.jpg"
 }, {
-  name: "JVC",
-  id: "jvc",
-  image: "/JVC_Victor/images/JVC_F1_16.jpg"
+  name: "DENON",
+  id: "denon",
+  image: "/Denon_Columbia/images/Denon_HD-M_32.jpg"
 }];
 const videoShowcase = [{
   name: "SONY",
-  id: "video-catalog",
-  image: "/Logos/Sony.jpeg"
+  id: "sony-video",
+  image: "/Videocassette/Sony/images/sony_1992-v-e-180.jpg"
 }, {
   name: "TDK",
-  id: "video-catalog",
-  image: "/Logos/TDK.jpg"
+  id: "tdk-video",
+  image: "/Videocassette/TDK/images/TDK_1987-hs-e-180-1.jpg"
 }, {
   name: "BASF",
   id: "basf-video",
@@ -187,7 +187,7 @@ const Index = () => {
           }} viewport={{
             once: true
           }} className="flex justify-center">
-            <CassetteIcon className="w-64 md:w-80" animate={false} />
+            <img src="/Videocassette/Glavnaya/CompactCassettes1.jpg" alt="Компакт-кассеты" className="w-full max-w-md rounded-xl shadow-lg object-cover" />
           </motion.div>
         </div>
       </div>
@@ -328,6 +328,10 @@ const Index = () => {
             <Monitor className="w-10 h-10 text-primary" />
             VHS: От домашнего видео к цифровому архиву
           </h2>
+
+          <div className="flex justify-center mb-8">
+            <img src="/Videocassette/Glavnaya/VHS_Cassette.jpg" alt="VHS кассета" className="w-full max-w-lg rounded-xl shadow-lg object-cover" />
+          </div>
           
           <p className="text-muted-foreground leading-relaxed mb-8 font-sans text-base">
             VHS (Video Home System) — это не просто старая кассета, а целая эпоха в истории домашних развлечений 
@@ -386,6 +390,11 @@ const Index = () => {
             <Disc className="w-10 h-10 text-primary" />
             Video8, Hi8, Digital8: Компактная революция
           </h2>
+
+          <div className="grid grid-cols-2 gap-4 mb-8">
+            <img src="/Videocassette/Glavnaya/Video8_sony-1995-1996-mp-120-1.jpg" alt="Video8 кассета Sony" className="w-full rounded-xl shadow-lg object-cover" />
+            <img src="/Videocassette/Glavnaya/Hi-8_sony-1993-mp-hi8-60-1.jpg" alt="Hi8 кассета Sony" className="w-full rounded-xl shadow-lg object-cover" />
+          </div>
 
           <p className="text-muted-foreground leading-relaxed mb-8 text-base">
             В конце 1980-х на смену громоздким камерам VHS-C пришла более изящная альтернатива — 
