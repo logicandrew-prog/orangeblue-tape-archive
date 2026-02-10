@@ -431,7 +431,7 @@ const Index = () => {
     </section>
 
     {/* Audio Manufacturers Showcase */}
-    <section className="py-16 bg-[#e8e7e3]">
+    <section className="py-16 bg-[#e9e8e7]">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
