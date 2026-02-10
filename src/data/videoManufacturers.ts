@@ -130,6 +130,32 @@ export const videoManufacturers: VideoManufacturer[] = [
     description: "Профессиональные видеокассеты VHS и S-VHS.",
     folder: "VHS_SVHS_PRO",
   },
+  {
+    id: "sony-video",
+    name: "Sony",
+    fullName: "Sony Corporation",
+    country: "Япония",
+    logo: "/Logos/Sony.jpeg",
+    description: "Sony — один из крупнейших производителей видеокассет VHS, Betamax, Video8 и Hi8.",
+    folder: "Sony",
+  },
+  {
+    id: "tdk-video",
+    name: "TDK",
+    fullName: "TDK Corporation",
+    country: "Япония",
+    logo: "/Logos/TDK.jpg",
+    description: "TDK — японский производитель высококачественных видеокассет VHS и S-VHS.",
+    folder: "TDK",
+  },
+  {
+    id: "vhs-c",
+    name: "VHS-C",
+    fullName: "VHS-Compact",
+    country: "Международный",
+    description: "Коллекция компактных видеокассет формата VHS-C различных производителей.",
+    folder: "VHS-C",
+  },
 ];
 
 export const getVideoManufacturerById = (id: string): VideoManufacturer | undefined => {
