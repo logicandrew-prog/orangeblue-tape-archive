@@ -60,7 +60,7 @@ const VideoCatalog = () => {
           }}>
                 <Link to={`/video-catalog/${manufacturer.id}`} className="tape-card block group h-full">
                   {/* Logo Area */}
-                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 bg-primary-foreground border-solid shadow-none border-border border" style={{
+                  <div className="aspect-square overflow-hidden flex items-center justify-center p-4 bg-primary-foreground border-solid shadow-none border-2 border-border" style={{
                 backgroundColor: '#ffffff'
               }}>
                     <LogoImage src={manufacturer.logo} alt={manufacturer.name} fallbackText={manufacturer.name.charAt(0)} />
