@@ -22,7 +22,7 @@ const CatalogCard = ({
     y: 0
   }} viewport={{
     once: true
-  }} className="tape-card overflow-hidden cursor-pointer group bg-border" onClick={onClick}>
+  }} className="tape-card overflow-hidden cursor-pointer group bg-border border-2 border-border border-solid" onClick={onClick}>
       {catalog.image ? <div className="aspect-[4/3] bg-muted overflow-hidden">
           <img src={catalog.image} alt={catalog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
         </div> : <div className="aspect-[4/3] flex items-center justify-center bg-[#f8f7f7]">
