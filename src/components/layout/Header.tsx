@@ -12,12 +12,6 @@ const navLinks = [{
   href: "/video-catalog",
   label: "Видеокассеты"
 }, {
-  href: "/about",
-  label: "Об аудиокассетах"
-}, {
-  href: "/about-video",
-  label: "О видеокассетах"
-}, {
   href: "/catalogs",
   label: "Печатные каталоги"
 }, {
