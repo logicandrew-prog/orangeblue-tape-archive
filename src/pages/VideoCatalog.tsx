@@ -49,7 +49,13 @@ const VideoCatalog = () => {
       <section className="py-16 border-primary-foreground bg-card">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {videoManufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
+            {[...videoManufacturers].sort((a, b) => {
+              // Brands first (have a specific company country), formats last (country === "Международный" or "Европа")
+              const aIsFormat = ["Международный", "Европа"].includes(a.country);
+              const bIsFormat = ["Международный", "Европа"].includes(b.country);
+              if (aIsFormat !== bIsFormat) return aIsFormat ? 1 : -1;
+              return a.name.localeCompare(b.name);
+            }).map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
             opacity: 0,
             y: 30
           }} animate={{
