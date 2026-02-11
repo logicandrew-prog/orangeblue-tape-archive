@@ -47,7 +47,7 @@ const Catalog = () => {
       </section>
 
       {/* Manufacturers Grid */}
-      <section className="py-16 bg-[#f8f8f7]">
+      <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
@@ -94,9 +94,9 @@ const Catalog = () => {
       </section>
 
       {/* Tape Types Legend */}
-      <section className="py-12 bg-stone-200">
+      <section className="py-12 bg-border">
         <div className="container mx-auto px-4 bg-transparent">
-          <h3 className="font-display text-2xl mb-8 text-center text-foreground bg-border">
+          <h3 className="font-display text-2xl mb-8 text-center text-foreground bg-card">
             Типы магнитной ленты
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
