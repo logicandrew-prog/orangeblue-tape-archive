@@ -69,7 +69,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form */}
-      <section className="py-16 bg-[#f8f8f7]">
+      <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-5 gap-8">
