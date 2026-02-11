@@ -441,7 +441,7 @@ const Index = () => {
 
     {/* Audio Manufacturers Showcase */}
     <section className="py-16 bg-card">
-      <div className="container mx-auto px-4 bg-muted border-card">
+      <div className="container mx-auto px-4 bg-muted border-inherit">
         <motion.div initial={{
           opacity: 0,
           y: 20
@@ -509,7 +509,7 @@ const Index = () => {
           }} transition={{
             delay: i * 0.05
           }}>
-              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-card">
+              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-card border-muted">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted flex items-center justify-center">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
