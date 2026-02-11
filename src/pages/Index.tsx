@@ -87,7 +87,7 @@ const Index = () => {
     </section>
 
     {/* 4 Navigation Buttons */}
-    <section className="py-20 bg-[#f8f8f7]">
+    <section className="py-20 bg-orange-50">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -407,10 +407,10 @@ const Index = () => {
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-muted">
-                  <th className="border p-2 text-left bg-border">Параметр</th>
-                  <th className="border p-2 text-left bg-border">Video8 (1985)</th>
-                  <th className="border p-2 text-left bg-border">Hi8 (1989)</th>
-                  <th className="border p-2 text-left bg-border">Digital8 (1999)</th>
+                  <th className="border p-2 text-left bg-card">Параметр</th>
+                  <th className="border p-2 text-left bg-card">Video8 (1985)</th>
+                  <th className="border p-2 text-left bg-card">Hi8 (1989)</th>
+                  <th className="border p-2 text-left bg-card">Digital8 (1999)</th>
                 </tr>
               </thead>
               <tbody className="text-muted-foreground">
@@ -441,7 +441,7 @@ const Index = () => {
 
     {/* Audio Manufacturers Showcase */}
     <section className="py-16 bg-card">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 bg-muted border-card">
         <motion.div initial={{
           opacity: 0,
           y: 20
@@ -451,8 +451,8 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2 bg-border">Аудиокассеты</h2>
-          <p className="text-muted-foreground">Лучшие модели от легендарных брендов</p>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-inherit">Аудиокассеты</h2>
+          <p className="text-muted-foreground bg-inherit">Лучшие модели от легендарных брендов</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {audioShowcase.map((m, i) => <motion.div key={m.id} initial={{
@@ -466,7 +466,7 @@ const Index = () => {
           }} transition={{
             delay: i * 0.05
           }}>
-              <Link to={`/catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
+              <Link to={`/catalog/${m.id}`} className="tape-card block p-4 text-center group bg-card">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
@@ -483,8 +483,8 @@ const Index = () => {
     </section>
 
     {/* Video Manufacturers Showcase */}
-    <section className="py-16 bg-background">
-      <div className="container mx-auto px-4">
+    <section className="py-16 bg-[sidebar-primary-foreground] bg-card">
+      <div className="container mx-auto px-4 bg-card">
         <motion.div initial={{
           opacity: 0,
           y: 20
@@ -494,7 +494,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2 bg-border">Видеокассеты</h2>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-inherit">Видеокассеты</h2>
           <p className="text-muted-foreground">Легендарные бренды мира видео</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -509,7 +509,7 @@ const Index = () => {
           }} transition={{
             delay: i * 0.05
           }}>
-              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-[#f8f7f7]">
+              <Link to={`/video-catalog/${m.id}`} className="tape-card block p-4 text-center group bg-card">
                 <div className="aspect-square mb-3 rounded-lg overflow-hidden bg-muted flex items-center justify-center">
                   <img src={m.image} alt={m.name} className="w-full h-full group-hover:scale-105 transition-transform duration-300 object-contain" loading="lazy" />
                 </div>
