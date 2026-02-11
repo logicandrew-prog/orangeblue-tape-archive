@@ -440,7 +440,7 @@ const Index = () => {
     </section>
 
     {/* Audio Manufacturers Showcase */}
-    <section className="py-16 bg-card">
+    <section className="py-16 bg-muted">
       <div className="container mx-auto px-4 border-inherit bg-inherit">
         <motion.div initial={{
           opacity: 0,
@@ -483,8 +483,8 @@ const Index = () => {
     </section>
 
     {/* Video Manufacturers Showcase */}
-    <section className="py-16 bg-[sidebar-primary-foreground] bg-card">
-      <div className="container mx-auto px-4 bg-card">
+    <section className="py-16 bg-[sidebar-primary-foreground] bg-muted">
+      <div className="container mx-auto px-4 bg-muted">
         <motion.div initial={{
           opacity: 0,
           y: 20
