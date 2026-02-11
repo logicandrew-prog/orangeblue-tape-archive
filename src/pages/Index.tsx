@@ -451,7 +451,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2 bg-primary">Аудиокассеты</h2>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-card">Аудиокассеты</h2>
           <p className="text-muted-foreground bg-inherit">Лучшие модели от легендарных брендов</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -494,7 +494,7 @@ const Index = () => {
         }} viewport={{
           once: true
         }} className="text-center mb-10">
-          <h2 className="font-display text-4xl text-foreground mb-2 bg-primary">Видеокассеты</h2>
+          <h2 className="font-display text-4xl text-foreground mb-2 bg-card">Видеокассеты</h2>
           <p className="text-muted-foreground">Легендарные бренды мира видео</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
