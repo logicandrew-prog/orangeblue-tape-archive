@@ -407,10 +407,10 @@ const Index = () => {
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="bg-muted">
-                  <th className="border p-2 text-left bg-card">Параметр</th>
-                  <th className="border p-2 text-left bg-card">Video8 (1985)</th>
-                  <th className="border p-2 text-left bg-card">Hi8 (1989)</th>
-                  <th className="border p-2 text-left bg-card">Digital8 (1999)</th>
+                  <th className="border p-2 text-left bg-[#f8f8f7]">Параметр</th>
+                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Video8 (1985)</th>
+                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Hi8 (1989)</th>
+                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Digital8 (1999)</th>
                 </tr>
               </thead>
               <tbody className="text-muted-foreground">
