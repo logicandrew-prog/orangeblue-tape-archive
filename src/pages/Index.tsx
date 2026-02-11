@@ -408,9 +408,9 @@ const Index = () => {
               <thead>
                 <tr className="bg-muted">
                   <th className="border p-2 text-left bg-[#f8f8f7]">Параметр</th>
-                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Video8 (1985)</th>
-                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Hi8 (1989)</th>
-                  <th className="border p-2 text-left bg-card border-[#f8f8f7]">Digital8 (1999)</th>
+                  <th className="border p-2 text-left border-[#f8f8f7] bg-[#f8f8f7]">Video8 (1985)</th>
+                  <th className="border p-2 text-left border-[#f8f8f7] bg-[#f8f8f7]">Hi8 (1989)</th>
+                  <th className="border p-2 text-left border-[#f8f8f7] bg-[#f8f8f7]">Digital8 (1999)</th>
                 </tr>
               </thead>
               <tbody className="text-muted-foreground">
