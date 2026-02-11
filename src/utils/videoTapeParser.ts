@@ -9,7 +9,9 @@ export async function fetchVideoTapesFromFolder(folder: string): Promise<ParsedV
   try {
     const response = await fetch(`/Videocassette/${folder}/описания.txt`);
     if (!response.ok) return [];
-    const text = await response.text();
+    const rawText = await response.text();
+    // Normalize line endings to \n
+    const text = rawText.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
 
     const tapes: ParsedVideoTape[] = [];
     // Split by separator lines (10+ dashes)
@@ -17,7 +19,7 @@ export async function fetchVideoTapesFromFolder(folder: string): Promise<ParsedV
 
     for (const block of blocks) {
       const lines = block.trim().split('\n').map(l => l.trim()).filter(Boolean);
-      if (lines.length < 2) continue;
+      if (lines.length < 1) continue;
 
       // Parse file name
       const fileLine = lines.find(l => l.startsWith('Файл:'));
@@ -29,7 +31,7 @@ export async function fetchVideoTapesFromFolder(folder: string): Promise<ParsedV
       const size = sizeLine?.replace('Размер:', '').trim();
       
       // Extract name from filename (remove extension and manufacturer prefix)
-      const baseName = fileName.replace(/\.[^.]+$/, '').replace(/^[^_]+_/, '');
+      const baseName = fileName.replace(/\.[^.]+$/, '').replace(/^[^_]+_/, '').replace(/^[^-]+-/, '');
       const displayName = baseName.replace(/_/g, ' ').replace(/-/g, ' ');
 
       tapes.push({

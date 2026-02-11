@@ -50,7 +50,7 @@ const Catalog = () => {
       <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {manufacturers.map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
+            {[...manufacturers].sort((a, b) => a.name.localeCompare(b.name)).map((manufacturer, index) => <motion.div key={manufacturer.id} initial={{
             opacity: 0,
             y: 30
           }} animate={{
