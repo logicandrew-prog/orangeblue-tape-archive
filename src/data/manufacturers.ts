@@ -235,7 +235,7 @@ export const manufacturers: Manufacturer[] = [
     fullName: "Sony Corporation",
     country: "Япония",
     founded: "1946",
-    logo: "/Logos/Sony.jpeg",
+    logo: "/Logos/Sony-logo.png",
     description: "Sony — один из крупнейших производителей бытовой электроники и носителей информации. Кассеты Sony HF, UX, ES и Metal Master славятся надёжностью.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sony_HF_90_Cassette.jpg/640px-Sony_HF_90_Cassette.jpg",
     tapes: [],
