@@ -41,28 +41,11 @@ const videoShowcase = [{
 }];
 
 const Index = () => {
-  const { data: articles } = useQuery({
-    queryKey: ["published_articles"],
-    queryFn: async () => {
-      const { data } = await supabase
-        .from("articles")
-        .select("*")
-        .eq("is_published", true)
-        .order("created_at", { ascending: false });
-      return data || [];
-    },
-  });
-
-  const getArticle = (slug: string) => articles?.find(a => a.slug === slug);
-
-  // Helper to filter out "special" articles from the recent list
-  const recentArticles = articles?.filter(a =>
-    !["audio-history", "tape-types", "vhs-history", "video8-history", "main-hero"].includes(a.slug)
-  ) || [];
-
-  const audioHistoryArticle = getArticle("audio-history");
-  const videoHistoryArticle = getArticle("vhs-history");
-  const video8Article = getArticle("video8-history");
+  // Static site — no dynamic articles
+  const audioHistoryArticle = null;
+  const videoHistoryArticle = null;
+  const video8Article = null;
+  const recentArticles: any[] = [];
 
   return <Layout>
     {/* Hero Section */}
