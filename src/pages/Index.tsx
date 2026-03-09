@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import DOMPurify from "dompurify";
 import { motion } from "framer-motion";
-import { ArrowRight, Disc, Video, Monitor, History, BookOpen, Clock } from "lucide-react";
+import { ArrowRight, Disc, Video, Monitor, History, BookOpen } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { CassetteIcon } from "@/components/ui/CassetteIcon";
-import { useQuery } from "@tanstack/react-query";
-import { supabase } from "@/integrations/supabase/client";
-import { format } from "date-fns";
 
 const audioShowcase = [{
   name: "SONY",
@@ -44,28 +41,11 @@ const videoShowcase = [{
 }];
 
 const Index = () => {
-  const { data: articles } = useQuery({
-    queryKey: ["published_articles"],
-    queryFn: async () => {
-      const { data } = await supabase
-        .from("articles")
-        .select("*")
-        .eq("is_published", true)
-        .order("created_at", { ascending: false });
-      return data || [];
-    },
-  });
-
-  const getArticle = (slug: string) => articles?.find(a => a.slug === slug);
-
-  // Helper to filter out "special" articles from the recent list
-  const recentArticles = articles?.filter(a =>
-    !["audio-history", "tape-types", "vhs-history", "video8-history", "main-hero"].includes(a.slug)
-  ) || [];
-
-  const audioHistoryArticle = getArticle("audio-history");
-  const videoHistoryArticle = getArticle("vhs-history");
-  const video8Article = getArticle("video8-history");
+  // Static site — no dynamic articles
+  const audioHistoryArticle = null;
+  const videoHistoryArticle = null;
+  const video8Article = null;
+  
 
   return <Layout>
     {/* Hero Section */}
@@ -524,40 +504,6 @@ const Index = () => {
       </div>
     </section>
 
-    {/* New Articles Section */}
-    {recentArticles.length > 0 && (
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-10">
-            <h2 className="font-display text-4xl text-foreground mb-2">Новые статьи</h2>
-            <p className="text-muted-foreground">Интересные материалы из мира магнитной записи</p>
-          </motion.div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {recentArticles.map((article, i) => (
-              <motion.div key={article.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
-                <div className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
-                  {article.image_url && (
-                    <div className="h-48 overflow-hidden">
-                      <img src={article.image_url} alt={article.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
-                    </div>
-                  )}
-                  <div className="p-6 flex-1 flex flex-col">
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
-                      <Clock className="w-4 h-4" />
-                      {format(new Date(article.created_at), "dd.MM.yyyy")}
-                    </div>
-                    <h3 className="font-display text-xl mb-3 text-foreground">{article.title}</h3>
-                    <p className="text-muted-foreground text-sm line-clamp-3 mb-4 flex-1">
-                      {article.description || article.content?.replace(/<[^>]*>?/gm, '').substring(0, 150) + "..."}
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-    )}
 
     {/* Audio Manufacturers Showcase */}
     <section className="py-16 bg-muted">
