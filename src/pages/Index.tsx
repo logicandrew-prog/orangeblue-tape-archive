@@ -45,7 +45,7 @@ const Index = () => {
   const audioHistoryArticle = null;
   const videoHistoryArticle = null;
   const video8Article = null;
-  const recentArticles: any[] = [];
+  
 
   return <Layout>
     {/* Hero Section */}
