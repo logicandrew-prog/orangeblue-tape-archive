@@ -465,7 +465,7 @@ const Index = () => {
                   className="w-full rounded-xl shadow-lg object-cover"
                 />
               </div>
-              <div dangerouslySetInnerHTML={{ __html: video8Article.content || "" }} />
+              <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(video8Article.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }} />
             </>
           ) : (
             <>
