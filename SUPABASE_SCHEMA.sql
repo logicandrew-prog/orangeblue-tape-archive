@@ -1,4 +1,39 @@
 
+-- Create app_role enum
+create type public.app_role as enum ('admin', 'moderator', 'user');
+
+-- Create user_roles table
+create table if not exists public.user_roles (
+    id uuid primary key default gen_random_uuid(),
+    user_id uuid references auth.users(id) on delete cascade not null,
+    role app_role not null,
+    unique (user_id, role)
+);
+
+alter table public.user_roles enable row level security;
+
+-- Users can read their own roles
+create policy "Users can read own roles"
+  on public.user_roles for select
+  to authenticated
+  using (auth.uid() = user_id);
+
+-- Security definer function to check roles (avoids RLS recursion)
+create or replace function public.has_role(_user_id uuid, _role app_role)
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select exists (
+    select 1
+    from public.user_roles
+    where user_id = _user_id
+      and role = _role
+  )
+$$;
+
 -- Create articles table
 create table if not exists public.articles (
   id uuid default gen_random_uuid() primary key,
@@ -46,37 +81,42 @@ create policy "Public articles are viewable by everyone"
   on public.articles for select
   using (true);
 
-create policy "Authenticated users can insert articles"
+create policy "Admins can insert articles"
   on public.articles for insert
-  with check (auth.role() = 'authenticated');
+  to authenticated
+  with check (public.has_role(auth.uid(), 'admin'));
 
-create policy "Authenticated users can update articles"
+create policy "Admins can update articles"
   on public.articles for update
-  using (auth.role() = 'authenticated');
+  to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
 
-create policy "Authenticated users can delete articles"
+create policy "Admins can delete articles"
   on public.articles for delete
-  using (auth.role() = 'authenticated');
+  to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
 
 -- Policies for Site Settings
 create policy "Site settings are viewable by everyone"
   on public.site_settings for select
   using (true);
 
-create policy "Authenticated users can update site settings"
+create policy "Admins can update site settings"
   on public.site_settings for update
-  using (auth.role() = 'authenticated');
+  to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
 
 -- Policies for Contact Submissions
 create policy "Anyone can insert contact submissions"
   on public.contact_submissions for insert
   with check (true);
 
-create policy "Authenticated users can view contact submissions"
+create policy "Admins can view contact submissions"
   on public.contact_submissions for select
-  using (auth.role() = 'authenticated');
+  to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
 
--- Create storage bucket for article images if needed (optional but good to have)
+-- Create storage bucket for article images if needed
 insert into storage.buckets (id, name, public) 
 values ('articles', 'articles', true)
 on conflict (id) do nothing;
@@ -85,14 +125,14 @@ create policy "Article images are publicly accessible"
   on storage.objects for select
   using ( bucket_id = 'articles' );
 
-create policy "Authenticated users can upload article images"
+create policy "Admins can upload article images"
   on storage.objects for insert
-  with check ( bucket_id = 'articles' and auth.role() = 'authenticated' );
+  with check ( bucket_id = 'articles' and public.has_role(auth.uid(), 'admin') );
 
-create policy "Authenticated users can update article images"
+create policy "Admins can update article images"
   on storage.objects for update
-  with check ( bucket_id = 'articles' and auth.role() = 'authenticated' );
+  with check ( bucket_id = 'articles' and public.has_role(auth.uid(), 'admin') );
 
-create policy "Authenticated users can delete article images"
+create policy "Admins can delete article images"
   on storage.objects for delete
-  using ( bucket_id = 'articles' and auth.role() = 'authenticated' );
+  using ( bucket_id = 'articles' and public.has_role(auth.uid(), 'admin') );
