@@ -118,12 +118,12 @@ const Index = () => {
             icon: Disc,
             title: "Типы аудиолент",
             description: "Type I, II, III и IV — от ферро до металла",
-            link: "/about"
+            link: "/catalog"
           }, {
             icon: Video,
             title: "Форматы видеокассет",
             description: "VHS, Hi8, Video8, MiniDV и другие форматы",
-            link: "/about-video"
+            link: "/video-catalog"
           }, {
             icon: History,
             title: "Каталог Аудиокассет",
