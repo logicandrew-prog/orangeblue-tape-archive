@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DOMPurify from "dompurify";
 import { motion } from "framer-motion";
 import { ArrowRight, Disc, Video, Monitor, History, BookOpen, Clock } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
