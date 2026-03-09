@@ -195,7 +195,7 @@ const Index = () => {
                 <h2 className="font-display text-4xl text-foreground mb-6">{audioHistoryArticle.title}</h2>
                 <div
                   className="prose prose-lg text-muted-foreground space-y-4"
-                  dangerouslySetInnerHTML={{ __html: audioHistoryArticle.content || "" }}
+                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(audioHistoryArticle.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }}
                 />
               </>
             ) : (
