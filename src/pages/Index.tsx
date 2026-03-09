@@ -384,7 +384,7 @@ const Index = () => {
                 />
               </div>
 
-              <div dangerouslySetInnerHTML={{ __html: videoHistoryArticle.content || "" }} />
+              <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(videoHistoryArticle.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }} />
             </>
           ) : (
             <>
