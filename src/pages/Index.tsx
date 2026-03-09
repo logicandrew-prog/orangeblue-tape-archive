@@ -504,40 +504,6 @@ const Index = () => {
       </div>
     </section>
 
-    {/* New Articles Section */}
-    {recentArticles.length > 0 && (
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-10">
-            <h2 className="font-display text-4xl text-foreground mb-2">Новые статьи</h2>
-            <p className="text-muted-foreground">Интересные материалы из мира магнитной записи</p>
-          </motion.div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {recentArticles.map((article, i) => (
-              <motion.div key={article.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
-                <div className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
-                  {article.image_url && (
-                    <div className="h-48 overflow-hidden">
-                      <img src={article.image_url} alt={article.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
-                    </div>
-                  )}
-                  <div className="p-6 flex-1 flex flex-col">
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
-                      <Clock className="w-4 h-4" />
-                      {format(new Date(article.created_at), "dd.MM.yyyy")}
-                    </div>
-                    <h3 className="font-display text-xl mb-3 text-foreground">{article.title}</h3>
-                    <p className="text-muted-foreground text-sm line-clamp-3 mb-4 flex-1">
-                      {article.description || article.content?.replace(/<[^>]*>?/gm, '').substring(0, 150) + "..."}
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-    )}
 
     {/* Audio Manufacturers Showcase */}
     <section className="py-16 bg-muted">
