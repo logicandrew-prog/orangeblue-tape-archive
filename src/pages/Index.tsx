@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DOMPurify from "dompurify";
 import { motion } from "framer-motion";
 import { ArrowRight, Disc, Video, Monitor, History, BookOpen, Clock } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
@@ -194,7 +195,7 @@ const Index = () => {
                 <h2 className="font-display text-4xl text-foreground mb-6">{audioHistoryArticle.title}</h2>
                 <div
                   className="prose prose-lg text-muted-foreground space-y-4"
-                  dangerouslySetInnerHTML={{ __html: audioHistoryArticle.content || "" }}
+                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(audioHistoryArticle.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }}
                 />
               </>
             ) : (
@@ -383,7 +384,7 @@ const Index = () => {
                 />
               </div>
 
-              <div dangerouslySetInnerHTML={{ __html: videoHistoryArticle.content || "" }} />
+              <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(videoHistoryArticle.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }} />
             </>
           ) : (
             <>
@@ -464,7 +465,7 @@ const Index = () => {
                   className="w-full rounded-xl shadow-lg object-cover"
                 />
               </div>
-              <div dangerouslySetInnerHTML={{ __html: video8Article.content || "" }} />
+              <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(video8Article.content || "", { ALLOWED_TAGS: ['p','br','strong','em','ul','ol','li','h1','h2','h3','h4','a','img','blockquote','table','tr','td','th'], ALLOWED_ATTR: ['href','src','alt','class','id','colspan','rowspan'] }) }} />
             </>
           ) : (
             <>
