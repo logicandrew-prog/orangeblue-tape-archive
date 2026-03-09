@@ -4,9 +4,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, Disc, Video, Monitor, History, BookOpen, Clock } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { CassetteIcon } from "@/components/ui/CassetteIcon";
-import { useQuery } from "@tanstack/react-query";
-import { supabase } from "@/integrations/supabase/client";
-import { format } from "date-fns";
 
 const audioShowcase = [{
   name: "SONY",
