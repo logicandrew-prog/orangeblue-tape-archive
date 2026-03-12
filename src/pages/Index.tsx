@@ -152,7 +152,7 @@ const Index = () => {
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">{feature.title}</h3>
               <p className="text-muted-foreground text-sm">{feature.description}</p>
-            </Link>
+            </a>
           </motion.div>)}
         </div>
       </div>
