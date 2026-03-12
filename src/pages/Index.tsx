@@ -342,7 +342,7 @@ const Index = () => {
     </section>
 
     {/* Video Article: VHS (Dynamic or Static) */}
-    <section className="py-16 bg-[#f8f8f7]">
+    <section id="video-history" className="py-16 bg-[#f8f8f7]">
       <div className="container mx-auto px-4">
         <motion.article initial={{
           opacity: 0,
