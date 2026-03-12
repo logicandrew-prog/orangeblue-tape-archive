@@ -181,7 +181,10 @@ const Index = () => {
               </>
             ) : (
               <>
-                <h2 className="font-display text-4xl text-foreground mb-6">История аудиокассеты</h2>
+                <h2 className="font-display text-4xl text-foreground mb-6 flex items-center gap-3">
+                  История аудиокассеты
+                  <img src={compactCassetteLogo} alt="Compact Cassette" className="inline-block h-10" />
+                </h2>
                 <div className="prose prose-lg text-muted-foreground space-y-4">
                   <p>
                     <strong className="text-foreground">Компакт-кассета</strong> (Compact Cassette) была представлена компанией
