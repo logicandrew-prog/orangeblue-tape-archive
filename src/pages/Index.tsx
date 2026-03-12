@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Disc, Video, Monitor, History, BookOpen } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { CassetteIcon } from "@/components/ui/CassetteIcon";
+import compactCassetteLogo from "@/assets/compact-cassette-logo.png";
 
 const audioShowcase = [{
   name: "SONY",
