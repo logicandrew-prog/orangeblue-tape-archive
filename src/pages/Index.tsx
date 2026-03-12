@@ -146,7 +146,7 @@ const Index = () => {
           }} transition={{
             delay: index * 0.1
           }}>
-            <Link to={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
+            <a href={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <feature.icon className="w-6 h-6 text-primary" />
               </div>
