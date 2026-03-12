@@ -119,12 +119,12 @@ const Index = () => {
             icon: Disc,
             title: "Типы аудиолент",
             description: "Type I, II, III и IV — от ферро до металла",
-            link: "/catalog"
+            link: "#tape-types"
           }, {
             icon: Video,
             title: "Форматы видеокассет",
             description: "VHS, Hi8, Video8, MiniDV и другие форматы",
-            link: "/video-catalog"
+            link: "#video-history"
           }, {
             icon: History,
             title: "Каталог Аудиокассет",
@@ -146,13 +146,13 @@ const Index = () => {
           }} transition={{
             delay: index * 0.1
           }}>
-            <Link to={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
+            <a href={feature.link} className="tape-card block p-6 h-full group bg-[#f8f7f7]">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <feature.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">{feature.title}</h3>
               <p className="text-muted-foreground text-sm">{feature.description}</p>
-            </Link>
+            </a>
           </motion.div>)}
         </div>
       </div>
@@ -223,7 +223,7 @@ const Index = () => {
     </section>
 
     {/* Audio: Tape Types - Static for now, complex layout */}
-    <section className="py-16 bg-primary-foreground">
+    <section id="tape-types" className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
@@ -342,7 +342,7 @@ const Index = () => {
     </section>
 
     {/* Video Article: VHS (Dynamic or Static) */}
-    <section className="py-16 bg-[#f8f8f7]">
+    <section id="video-history" className="py-16 bg-[#f8f8f7]">
       <div className="container mx-auto px-4">
         <motion.article initial={{
           opacity: 0,
