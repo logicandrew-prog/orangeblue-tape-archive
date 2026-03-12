@@ -223,7 +223,7 @@ const Index = () => {
     </section>
 
     {/* Audio: Tape Types - Static for now, complex layout */}
-    <section className="py-16 bg-primary-foreground">
+    <section id="tape-types" className="py-16 bg-primary-foreground">
       <div className="container mx-auto px-4">
         <motion.div initial={{
           opacity: 0,
